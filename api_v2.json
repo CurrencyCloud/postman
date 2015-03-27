@@ -1,0 +1,1331 @@
+{
+	"id": "99992e35-3b43-1645-a3ab-770044a21090",
+	"name": "API v2 WIP",
+	"description": "Postman pack for basic testing of API v2 ",
+	"order": [],
+	"folders": [
+		{
+			"id": "777712b6-9f80-f4b7-a6cf-e1aad5ecc157",
+			"name": "Accounts",
+			"description": "",
+			"order": [
+				"77774d98-d26c-c48e-1679-49a73f8bb534",
+				"77776e11-7627-b477-8308-105905425091",
+				"777774de-0f7c-6292-dba3-893e6fbb591f",
+				"777735ff-5172-8940-d7f5-ed1901af6e6b",
+				"777780b8-fdc8-c4ab-388d-bf431d27121b"
+			],
+			"collection_name": "API v2 WIP",
+			"collection_id": "99992e35-3b43-1645-a3ab-770044a21090"
+		},
+		{
+			"id": "77773ace-7079-3d3e-85da-3eaddfdfbdf8",
+			"name": "Authentication",
+			"description": "",
+			"order": [
+				"77779fc1-1328-86b3-b42a-0f7856b4ca84",
+				"7777c7e0-ed27-e481-9e00-1db6e8040dcc",
+				"7777dcb6-1f23-becd-2f5b-63ae14222aad",
+				"77776dd0-5820-62be-3490-f618f5bf5afc"
+			],
+			"collection_name": "API v2 WIP",
+			"collection_id": "99992e35-3b43-1645-a3ab-770044a21090"
+		},
+		{
+			"id": "7777b4a4-153a-5358-0243-87a0c4418971",
+			"name": "Balances",
+			"description": "",
+			"order": [
+				"7777c56c-eac0-69cb-a45f-be7e4d92176f",
+				"77777838-4aaa-91ef-a960-f610db499a44"
+			],
+			"collection_name": "API v2 WIP",
+			"collection_id": "99992e35-3b43-1645-a3ab-770044a21090"
+		},
+		{
+			"id": "7777e717-28e8-1857-655f-c8c8a80bf126",
+			"name": "Beneficiaries",
+			"description": "",
+			"order": [
+				"7777c641-40f6-0e7d-3a7a-0244c812cd73",
+				"77773f66-92a6-ac93-5196-b3f4f2331c7f",
+				"77778bf7-928a-f350-8a2b-8b224c68f233",
+				"77773e80-62fc-76e9-c8e2-ecc9af2b8e50",
+				"77773475-68d8-b078-42b3-1c07a2404210",
+				"77770f98-3eaf-4da8-1622-e6895f14d2db"
+			],
+			"collection_name": "API v2 WIP",
+			"collection_id": "99992e35-3b43-1645-a3ab-770044a21090"
+		},
+		{
+			"id": "77779304-fcbd-579a-2dd2-b2ff9865f32d",
+			"name": "Contacts",
+			"description": "",
+			"order": [
+				"7777337d-3420-ae7b-4823-3ae905666613",
+				"77775fa9-61fc-1f28-017a-6dea8c1376d8",
+				"7777f58f-dead-9f04-9a9a-76b0f3cbce02",
+				"7777dccb-3a90-5e20-9a74-cc3268022fb1",
+				"77771fdb-0946-f668-37fd-a691638d01de",
+				"777721e8-5ddd-e531-88bc-33233b6303c5",
+				"777701c1-3a63-9500-8547-5a72085b80b3"
+			],
+			"collection_name": "API v2 WIP",
+			"collection_id": "99992e35-3b43-1645-a3ab-770044a21090"
+		},
+		{
+			"id": "77770e22-cfe1-2f31-b287-234f7bb663ce",
+			"name": "Conversions",
+			"description": "",
+			"order": [
+				"77779ba0-9883-4a07-282d-c8b12d443ab9",
+				"7777bd80-8c02-cf98-f7a1-b4e27cad6afc",
+				"7777e077-387a-7ad0-488f-496d21888101"
+			],
+			"collection_name": "API v2 WIP",
+			"collection_id": "99992e35-3b43-1645-a3ab-770044a21090"
+		},
+		{
+			"id": "77771ba7-dbd2-9047-9931-cacb4ea1aa8c",
+			"name": "Payers",
+			"description": "",
+			"order": [
+				"7777f133-9a00-9d40-8030-0e08acc664ef"
+			],
+			"collection_name": "API v2 WIP",
+			"collection_id": "99992e35-3b43-1645-a3ab-770044a21090"
+		},
+		{
+			"id": "7777caf8-c6df-6c16-45c9-4e4cd241c775",
+			"name": "Payments",
+			"description": "",
+			"order": [
+				"7777ff3d-dde7-6cb1-83f0-ac3e9a4755ed",
+				"77771801-91e1-b3f2-755e-bccaaf433206",
+				"777700b9-c4f1-7684-baed-afd8bcf6043d",
+				"777704a8-68c7-e5b3-cb09-ad741d9053ed",
+				"77770ff2-5ea9-c17b-86ff-159188951978",
+				"7777199e-b652-da36-db4b-21422527ee0d",
+				"77774b80-2cb5-38a2-6fd9-a00395527eaf"
+			],
+			"collection_name": "API v2 WIP",
+			"collection_id": "99992e35-3b43-1645-a3ab-770044a21090"
+		},
+		{
+			"id": "77773080-f5f6-79bb-416f-b600083e843d",
+			"name": "Rates",
+			"description": "",
+			"order": [
+				"77772e4d-f630-a518-7abc-d3440afc4864",
+				"777773a8-6d00-6d3f-fc43-48d8c82eafbd"
+			],
+			"collection_name": "API v2 WIP",
+			"collection_id": "99992e35-3b43-1645-a3ab-770044a21090"
+		},
+		{
+			"id": "7777bf8e-1ba7-00b0-1a66-4ad703d30cd1",
+			"name": "Reference",
+			"description": "",
+			"order": [
+				"7777bafb-a2d6-4138-6b9f-f26e7bafa9e7",
+				"77771982-e187-ec43-5944-f0a4c30719bf",
+				"77777fed-76ed-ee78-c4a0-231d8fd0379a",
+				"7777af13-ddf6-8506-4f29-82a0f4b239dd"
+			],
+			"collection_name": "API v2 WIP",
+			"collection_id": "99992e35-3b43-1645-a3ab-770044a21090"
+		},
+		{
+			"id": "7777fc92-5db7-89c3-6204-65ed7521a4ec",
+			"name": "Settlements",
+			"description": "",
+			"order": [
+				"777752fe-e99a-507d-6b7f-0a900e8983db",
+				"77770e2e-64e5-c1b9-d23a-f3fdd87a2041",
+				"77774c45-1e22-ee26-cecc-31b26c1b8116",
+				"7777351b-b50b-b4f9-d3d3-fa68f477e7e8",
+				"7777a1ae-cb16-3a6a-c0ca-22d3ecb4a5e9",
+				"77771f5f-594a-63c9-a70e-4a2024b4e8df",
+				"7777b077-210f-e0e3-343a-1eaef07e1a4b",
+				"7777105a-540b-e9ba-3ce8-ad13ea2eadaf"
+			],
+			"collection_name": "API v2 WIP",
+			"collection_id": "99992e35-3b43-1645-a3ab-770044a21090"
+		},
+		{
+			"id": "77775d94-bbfb-f132-765b-58bb9cdb44b8",
+			"name": "Signups",
+			"description": "",
+			"order": [
+				"7777af13-ddf6-8506-4f29-82a0f4b239dd",
+				"77775614-3c15-aef5-4e95-4a3d2206a2f9"
+			],
+			"collection_name": "API v2 WIP",
+			"collection_id": "99992e35-3b43-1645-a3ab-770044a21090"
+		},
+		{
+			"id": "77775a3b-ba65-bc6d-d445-c5ae641d311b",
+			"name": "Transactions",
+			"description": "",
+			"order": [
+				"7777db17-64ed-35e3-7c27-eacdf54ab881",
+				"7777e496-7af1-ac0d-ee34-ddacf49684a4"
+			],
+			"collection_name": "API v2 WIP",
+			"collection_id": "99992e35-3b43-1645-a3ab-770044a21090"
+		}
+	],
+	"timestamp": 1412324600389,
+	"synced": false,
+	"requests": [
+		{
+			"id": "777700b9-c4f1-7684-baed-afd8bcf6043d",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/payments/create",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "currency",
+					"value": "USD",
+					"type": "text"
+				},
+				{
+					"key": "beneficiary_id",
+					"value": "3f45396b-c61c-44ed-bc36-658505e968f1",
+					"type": "text"
+				},
+				{
+					"key": "amount",
+					"value": "78.13",
+					"type": "text"
+				},
+				{
+					"key": "reason",
+					"value": "Testing",
+					"type": "text"
+				},
+				{
+					"key": "reference",
+					"value": "Testing reference",
+					"type": "text"
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412345048367,
+			"name": "Create a Payment",
+			"description": "**POST /v2/payments/create**\nCreates a new payment and returns a hash containing the details of the created payment.\n\n\n**Required Fields**\n\ncurrency:3 character ISO 4217 currency code\n\nbeneficiary\\_id:Unique ID of beneficiary\n\namount:Amount of Payment to 2dp\n\nreason:Reason for payment\n\nreference:Reference\n\n**Optional Fields**\n\nPayment\\_date:ISO 8601 Date when the payment should be paid\n\nPayment\\_type:Can be priority or regular\n\nconversion\\_id:Conversion unique ID\n\npayer\\_entity\\_type:Type of payer - can be individual or company\n\npayer\\_company\\_name:Payer company name\n\npayer\\_first\\_name:Payer first name\n\npayer\\_last\\_name:Payer second name\n\npayer\\_city:Payer city\n\npayer\\_postcode:Payer postcode\n\npayer\\_state\\_or\\_province:Payer state or province\n\npayer\\_date\\_of\\_birth:Payer date of birth(company creation date when payer\\_entity\\_type is company)\n\n\n**Response**\n\nid:Payment unique ID\n\npayer\\_id:Unique payer ID\n\namount:Amount of Payment to 2dp\n\nbeneficiary\\_id\t:ID of the beneficiary\n\ncurrency:3 character ISO 4217 currency code\n\nconversion\\_id:Conversion unique ID\n\nreference:Reference\n\npayment\\_type:Can be standard or local\n\npayment\\_date:ISO 8601 Date when the payment should be paid\n\nreason:Reason for payment\n\nstatus:Status of the payment\n\ntransferred\\_at:ISO 8601 Date when the Payment was sent\n\nauthorisation\\_steps\\_required:Number of authorisation steps required\n\ncreator\\_contact\\_id:ID of the contact\n\nlast\\_updater\\_contact\\_id:ID of the contact\n\nshort\\_reference:transfer ID of the payment\n\nfailure\\_reason:Reason for the failure\n\ncreated\\_at:Datetime of when the Payment was created\n\nupdated\\_at:Datetime of when the Payment was last updated\n\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "777701c1-3a63-9500-8547-5a72085b80b3",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/contacts/security_details",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412345067085,
+			"name": "Retrieve Security Details",
+			"description": "**GET /v2/contacts/security\\_details** - Returns a json structure with all the security questions for the active contact\n\n\n**Response**\n\nsecurity\\_questions - The list of security questions for the currently logged in user\n\n- security\\_code - An enumeration (sec\\_q\\_hol\\_dst, sec\\_q\\_fav\\_animal, sec\\_q\\_pet\\_name, sec\\_q\\_fav\\_city) that identifies the security question\n\n- security\\_question - A security question in English that needs to be answered for a successful login.\n\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "777704a8-68c7-e5b3-cb09-ad741d9053ed",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/payments/{{id}}/authorise",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412345168319,
+			"name": "Authorise a Payment",
+			"description": "**POST /v2/payments/{id}/authorise** \n  Authorise a payment and returns a json structure containing the details of the authorisation object.\n\n\n**Required Fields**\n\nid:Unique ID of payment\n\n**Response**\n\nauthorisation\\_id:Payment Authorisation unique ID\n\npayment\\_id:ID of the payment\n\nauthoriser\\_id:contact ID of the authoriser\n\nstatus:status of the authorisation - valid/invalid\n\ncreated\\_at:Datetime of when the Payment was created\n\nupdated\\_at:Datetime of when the Payment was last updated\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "77770e2e-64e5-c1b9-d23a-f3fdd87a2041",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/settlements/c0696d4b-2e85-4fb9-b86f-5d3d405df191/release",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412353188206,
+			"name": "Release a settlement",
+			"description": "** POST /v2/settlements/{id}/release **\n  Move the Settlement to state 'released', meaning it is ready to be processed.\n\n**Required Fields**\n\nid - Settlement ID\n\n**Optional Fields**\n\non\\_behalf\\_of: Contact ID of the client\n\n**Response**\n\nid:Settlement unique ID\n\nshort_reference:Unique human readable identifier\n\nstatus:Status of the Settlement\n\nconversion\\_ids:Array containing IDs of all Conversions in the Settlement\n\nentries:\n\ncreated\\_at:ISO 8601 Date when the Settlement was created\n\nupdated\\_at:ISO 8601 Date when the Settlement was last updated\n\nreleased\\_at:ISO 8601 Date when the Settlement was released\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "77770f98-3eaf-4da8-1622-e6895f14d2db",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/beneficiaries/b6a9c145-73fb-4f2f-8876-a61e727c6886/delete",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412345732863,
+			"name": "Delete A Beneficiary",
+			"description": "**GET /v2/beneficiaries/{id}/delete** - Returns a json structure containing the details of the requested beneficiary.\n\n**Required Fields**\n\nid: ID of the beneficiary\n\n**Optional Fields**\n\non\\_behalf\\_of: Contact ID of the client\n\n**Response**\n\nid: ID of the Beneficiary\n\nbank\\_account\\_holder\\_name: Bank account holder's name\n\nemail: Email address of the Beneficiary\n\nbeneficiary\\_address: Address of the beneficiary\n\nbeneficiary\\_country: Country\n\ncurrency: 3 character ISO 4217 currency code\n\nbank\\_address: Bank address\n\nbank\\_country: Bank country\n\nrouting\\_code\\_type_1: The routing type code that identifies the bank account for the 'regular' payment type\n\nrouting\\_code\\_value\\_1: Routing code value 1\n\nrouting\\_code\\_type\\_2: The routing type code that identifies the bank account for the 'regular' payment type\n\nrouting\\_code\\_value\\_2: Routing code value 2\n\nbank\\_name: Bank name\n\nbank\\_account\\_type: Bank account type\n\npayment\\_types: priority, regular\n\ncreator\\_contact\\_id: Contact ID\n\nbic\\_swift: BIC/SWIFT code\n\niban: International bank account number\n\ndefault\\_beneficiary: Boolean. Default beneficiary\n\naccount\\_number: Account number\n\nname: Nickname\n\nbeneficiary\\_entity\\_type: Beneficiary type\n\nbeneficiary\\_company\\_name: Beneficiary company name\n\nbeneficiary\\_first\\_name: Beneficiary first name\n\nbeneficiary\\_last\\_name: Beneficiary last name\n\nbeneficiary\\_city: Beneficiary city\n\nbeneficiary\\_state\\_or\\_province: Beneficiary state or province\n\nbeneficiary\\_postcode: Beneficiary postcode\n\ncreated\\_at: ISO 8601 Date of when record was created\n\nupdated\\_at: ISO 8601 Date of when record was last updated\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "77770ff2-5ea9-c17b-86ff-159188951978",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/payments/find",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412346014618,
+			"name": "Find a Payment",
+			"description": "**GET /v2/payments/find** \n  Returns an Array of Payment objects matching the search criteria.\n\n\n**Required Fields**\n  \n   --\n   \n**Optional Fields** \n\nCurrency:3 character ISO 4217 currency code\n\nAmount:Amount of Payment to 2dp\n\nAmount\\_from:Amount of Payment to 2dp\n\nAmount\\_to:\tAmount of Payment to 2dp\n\nStatus:Status of the payment\n\nReason:Reason for payment\n\nPayment\\_date\\_from:ISO 8601 Date when the payment should be paid\n\nPayment\\_date\\_to:ISO 8601 Date when the payment should be paid\n\nTransferred\\_at\\_from:ISO 8601 Datetime when the payment should be transfered\n\nTransferred\\_at\\_to:ISO 8601 Datetime when the payment should be transfered\n\nCreated\\_at\\_from:ISO 8601 Datetime when the payment was created\n\nCreated\\_at\\_to:ISO 8601 Datetime when the payment was created\n\nUpdated\\_at\\_from:ISO 8601 Datetime when the payment was updated\n\nUpdated\\_at\\_to:ISO 8601 Datetime when the payment was updated\n\nBeneficiary\\_id:ID of the beneficiary\n\nConversion\\_id:Conversion unique ID\n\npage\tWhich page to show\n\nper\\_page:Maximum number of entries to return\n\norder:The field to order entries by\n\norder\\_asc\\_desc\tWhether the order is ascending (asc) or descending (desc)\n\n\n**Response**\n\n  Payments:An array of Payment objects\n  \n  Id:Payment unique ID\n  \n  Amount:Amount of Payment to 2dp\n  \n  Beneficiary\\_id:ID of the beneficiary\n  \n  currency:3 character ISO 4217 currency code\n  \n  conversion\\_id:Conversion unique ID\n  \n  reference:Reference\n  \n  payment\\_type:Can be standard or local\n  \n   payment\\_date:ISO 8601 Date when the payment should be paid\n   \n   reason:Reason for payment\n   \n   status:Status of the payment\n   \n   transferred\\_at:ISO 8601 Date when the Payment was sent\n   \n   authorisation\\_steps\\_required:Number of authorisation steps required\n   \n   creator\\_contact\\_id:ID of the contact\n   \n   last\\_updater\\_contact\\_id:ID of the contact\n   \n   short\\_reference:transfer ID of the payment\n   \n   failure\\_reason:Reason for the failure\n   \n   payer\\_id:Unique payer id\n   \n   created\\_at:Datetime of when the Payment was created\n   \n   updated\\_at:Datetime of when the Payment was last updated\n   \npagination:Pagination details relevant to the search query\n\n  total\\_entries:Total entries for this search query\n  \n  total\\_pages:Total pages for this search query\n  \n  current\\_page:The current page of the search query\n  \n  per\\_page:The amount of search results to return per page\n  \n  previous\\_page:The previous page for this search query\n  \n  next\\_page:The next page for this search query\n  \n  order:The order of the search returned for this search query\n  \n  order\\_asc\\_desc:The order of results returned e.g. 'asc' or 'desc'\n\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "7777105a-540b-e9ba-3ce8-ad13ea2eadaf",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/settlements/find",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412353598561,
+			"name": "Find a Settlements",
+			"description": "**GET /v2/settlements/find**\nReturns an array of Settlement objects for the given search criteria\n\n**Required Fields**\n\n--\n\n\n\n**Optional Fields**\n\nshort_reference:Unique human readable identifier\n\nstatus:The current status of the settlement\n\ncreated\\_at\\_from:ISO 8601 Datetime when the settlement was created\n\ncreated\\_at\\_to:ISO 8601 Datetime when the settlement was created\n\nupdated\\_at\\_from:ISO 8601 Datetime when the settlement was updated\n\nupdated\\_at\\_to:ISO 8601 Datetime when the settlement was updated\n\nreleased\\_at\\_from:ISO 8601 Datetime when the settlement was updated\n\nreleased\\_at\\_to:ISO 8601 Datetime when the settlement was updated\n\npage:Which page to show\n\nper\\_page:Maximum number of entries to return\n\norder:The field to order entries by\n\norder\\_asc\\_desc:Whether the order is ascending (asc) or descending (desc)\n\non_behalf\\_of:Contact ID of the client\n\n\n**Response**\n\nsettlements:An array of Settlement objects\n\nid:Settlement unique ID\n\nshort\\_reference:Unique human readable identifier\n\nstatus:Status of the Settlement\n\nconversion\\_ids:Array containing IDs of all Conversions in the Settlement\n\nentries:\n\ncreated\\_at:ISO 8601 Date when the Settlement was created\n\nupdated\\_at:ISO 8601 Date when the Settlement was last updated\n\nreleased\\_at:ISO 8601 Date when the Settlement was released\n\npagination:Pagination details relevant to the search query\n\ntotal\\_entries:Total entries for this search query\n\ntotal\\_pages:Total pages for this search query\n\ncurrent\\_page:The current page of the search query\n\nper\\_page:The amount of search results to return per page\n\nprevious\\_page:\tThe previous page for this search query\n\nnext\\_page:The next page for this search query\n\norder:The order of the search returned for this search query\n\norder\\_asc\\_desc:The order of results returned e.g. 'asc' or 'desc'",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "77771801-91e1-b3f2-755e-bccaaf433206",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/payments/073e6d71-b753-46f9-9cb0-250324a2e63a",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "id",
+					"value": "073e6d71-b753-46f9-9cb0-250324a2e63a",
+					"type": "text"
+				},
+				{
+					"key": "currency",
+					"value": "USD",
+					"type": "text"
+				},
+				{
+					"key": "beneficiary_id",
+					"value": "3f45396b-c61c-44ed-bc36-658505e968f1",
+					"type": "text"
+				},
+				{
+					"key": "amount",
+					"value": "78.13",
+					"type": "text"
+				},
+				{
+					"key": "reason",
+					"value": "Testing",
+					"type": "text"
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412344966349,
+			"name": "Update a Payment",
+			"description": "**POST /v2/payments/{id}**\nEdits a prevoiusly created payment and returns a hash containing the details of the edited payment.\n\n\n**Required Fields**\n\nId:Unique ID of payment\n\nCurrency:3 character ISO 4217 currency code\n\nBeneficiary\\_id\t:Unique ID of beneficiary\n\namount:Amount of Payment to 2dp\n\nreason\t:Reason for payment\n\n**Optional Fields**\n\nPayment\\_date:ISO 8601 Date when the payment should be paid\n\nPayment\\_type:Can be priority or regular\n\nReference:Reference\n\nconversion\\_id:Conversion unique ID\n\npayer\\_entity\\_type:Type of payer - can be individual or company\n\npayer\\_company\\_name:Payer company name\n\npayer\\_first\\_name:Payer first name\n\npayer\\_last\\_name:Payer second name\n\npayer\\_city:Payer city\n\npayer\\_postcode:Payer postcode\n\npayer\\_state\\_or\\_province:Payer state or province\n\npayer\\_date\\_of\\_birth:Payer date of birth(company creation date when payer\\_entity\\_type is company)\n\n\n**Response**\n\nid:Payment unique ID\n\npayer\\_id:Unique payer ID\n\namount:Amount of Payment to 2dp\n\nbeneficiary\\_id\t:ID of the beneficiary\n\ncurrency:3 character ISO 4217 currency code\n\nconversion\\_id:Conversion unique ID\n\nreference:Reference\n\npayment\\_type:Can be standard or local\n\npayment\\_date:ISO 8601 Date when the payment should be paid\n\nreason:Reason for payment\n\nstatus:Status of the payment\n\ntransferred\\_at:ISO 8601 Date when the Payment was sent\n\nauthorisation\\_steps\\_required:Number of authorisation steps required\n\ncreator\\_contact\\_id:ID of the contact\n\nlast\\_updater\\_contact\\_id:ID of the contact\n\nshort\\_reference:transfer ID of the payment\n\nfailure\\_reason:Reason for the failure\n\ncreated\\_at:Datetime of when the Payment was created\n\nupdated\\_at:Datetime of when the Payment was last updated\n\n\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "77771982-e187-ec43-5944-f0a4c30719bf",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/reference/currencies",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412341457366,
+			"name": "Available Currencies",
+			"description": "**GET /v2/reference/currencies** - Returns a list of all the currencies that are tradeable\n\n**Response**\n\ncurrencies\n\n- code: The ISO4217 code that identifies the currency\n\n- decimal\\_places: The number of decimal places for a subunit of the currency\n\n- name: The name of the currency",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "7777199e-b652-da36-db4b-21422527ee0d",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/payments/1e99053f-50f7-4861-9c31-4014b2f37144/authorisations",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412346390563,
+			"name": "Retrieve Payment Authorisations",
+			"description": "**GET /v2/payments/{id}/authorisations** \n  Returns an Array of Payment Authorisation objects.\n\n\n**Required Fields**\n\nid:Unique ID of payment\n\n**Optional Fields**\n\nPage:Which page to show\n\nPer\\_pag:Maximum number of entries to return\n\norder:The field to order entries by\n\norder\\_asc\\_desc:Whether the order is ascending (asc) or descending (desc\n\n\n**Response**\n\nAuthorisations:An array of Payment Authorisation objects\n\n Authorisation\\_id: Payment Authorisation unique ID\n \n  Payment\\_id\t:ID of the payment\n  \n  Authoriser\\_id:contact ID of the authoriser\n  \n Status: status of the authorisation-valid\\/invalid\n \ncreated\\_at:ISO 8601 Date when the Payment Authorisation was created\n  \nupdated\\_at:ISO 8601 Date when the Payment Authorisation was updated\n  \ncreated\\_at:Datetime of when the Payment was created\n\nupdated\\_at:Datetime of when the Payment was last updated\n \npagination:Pagination details relevant to the search query\n\ntotal\\_entries:Total entries for this search query\n\ntotal\\_pages:Total pages for this search query\n\ncurrent\\_page:The current page of the search query\n\nper\\_page:The amount of search results to return per page\n\nprevious\\_page:The previous page for this search query\n\nnext\\_page:The next page for this search query\n\norder:The order of the search returned for this search query\n\norder\\_asc\\_desc:The order of results returned e.g. 'asc' or 'desc'\n\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "77771f5f-594a-63c9-a70e-4a2024b4e8df",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/settlements/c0696d4b-2e85-4fb9-b86f-5d3d405df191/remove_conversion",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412353807259,
+			"name": "Remove a Conversion from a Settlement",
+			"description": "**POST /v2/settlements/{id}/remove_conversion**\nRemove a Conversion from an open Settlement. Returns the updated Settlement object.\n\n**Required Fields**\n\nid:Settlement ID\n\nconversion_id:ID of the conversion\n\n\n**Optional Fields**\n\non\\_behalf\\_of: Contact ID of the client\n\n\n**Response**\n\nid:Settlement unique ID\n\nshort\\_reference:Unique human readable identifier\n\nstatus:Status of the Settlement\n\nconversion\\_ids:Array containing IDs of all Conversions in the Settlement\n\nentries:\t\n\ncreated\\_at:ISO 8601 Date when the Settlement was created\n\nupdated\\_at:ISO 8601 Date when the Settlement was last updated\n\nreleased\\_at:ISO 8601 Date when the Settlement was released\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "77771fdb-0946-f668-37fd-a691638d01de",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/contacts/find",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412345061302,
+			"name": "Find Contact",
+			"description": "**GET /v2/contacts/find** - Return an array containing hashes of details of the contacts matching the search criteria for the active user.\n\n**Optional Fields**\n\naccount\\_name: Account name\n\naccount\\_id: ID of account\n\nfirst\\_name: First name\n\nlast\\_name: Last name\n\nemail\\_address: Email address\n\nyour\\_reference: Your unique ID\n\nphone\\_number: Phone number\n\nlogin\\_id: Login ID of the contact which must be unique. (only updateable by a broker)\n\nstatus: Status (only updateable by a broker)\n\nlocale: The locale of the user as combination of an ISO 639-1 language code and ISO\\_3166-1 regional code e.g. en, en-US, fr-FR\n\ntimezone: The timezone of the user as it exists in the IANA tz database e.g. Europe/London, America/New\\_York (reference http://en.wikipedia.org/wiki/List\\_of\\_tz\\_database\\_time\\_zones#List)\n\npage: Which page to show\n\nper\\_page: Maximum number of entries to return\norder: The field to order entries by\norder\\_asc\\_desc: Whether the order is ascending (asc) or descending (desc)\n\n\n**Response**\n\ncontacts: An array of Contact objects\n\n  - id: ID of the contact\n\n  - account\\_name: Account name\n\n  - account\\_id: ID of the account\n\n  - your\\_reference: Your unique ID of the contact\n\n  - email\\_address: Email address\n\n  - first\\_name: First name\n\n  - last\\_name: Last name\n\n  - phone\\_number: Phone number\n\n  - mobile\\_phone\\_number: Mobile phone number\n\n  - locale: The locale of the user as combination of an ISO 639-1 language code and ISO_3166-1 regional code e.g. en, en-US, fr-FR\n\n  - login\\_id: Login ID\n\n  - status: Status\n\n  - timezone: The timezone of the user as it exists in the IANA tz database e.g. Europe/London, America/New\\_York (reference http://en.wikipedia.org/wiki/List\\_of\\_tz\\_database\\_time\\_zones#List)\n\n  - created\\_at: ISO 8601 Date when the Contact was created\n\n  - updated\\_at: ISO 8601 Date when the Contact was last updated\n\npagination: Pagination details relevant to the search query\n\n  - total\\_entries: Total entries for this search query\n\n  - total\\_pages: Total pages for this search query\n\n  - current\\_page: Current page of the search query\n\n  - per\\_page: Amount of search results to return per page\n\n  - previous\\_page: Previous page for this search query\n\n  - next\\_page: Next page for this search query\n\n  - order: Order of the search returned for this search query\n\n  - order\\_asc\\_desc: Order of results returned e.g. 'asc' or 'desc'\n\n\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "777721e8-5ddd-e531-88bc-33233b6303c5",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/contacts/reset_security_details?token=e538276d519f037b2b4e6fcde4a4f541&password=test&security_question_one=sec_q_fav_city&security_question_two=sec_q_pet_name&security_question_three=sec_q_fav_animal&security_answer_one=test&security_answer_two=test&security_answer_three=test",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412345064942,
+			"name": "Reset security details for a Contact",
+			"description": "**POST /v2/contacts/reset\\_security\\_details** - Resets the users details if the token is valid contact.\n\n**Required Fields**\n\ntoken - The unique and temporary token that identifies this reset security details request\n\npassword - The password to use for the user\n\nsecurity\\_question\\_one - One of the four allowed security questions (sec\\_q\\_fav\\_city, sec\\_q\\_pet\\_name, sec\\_q\\_fav\\_animal, sec\\_q\\_hol\\_dst)\n\nsecurity\\_question\\_two - One of the four allowed security questions (sec\\_q\\_fav\\_city, sec\\_q\\_pet\\_name, sec\\_q\\_fav\\_animal, sec\\_q\\_hol\\_dst)\n\nsecurity\\_question\\_three - One of the four allowed security questions (sec\\_q\\_fav\\_city, sec\\_q\\_pet\\_name, sec\\_q\\_fav\\_animal, sec\\_q\\_hol\\_dst)\n\nsecurity\\_answer\\_one - The answer for security\\_answer\\_one\n\nsecurity\\_answer\\_two - The answer for security\\_answer\\_two\n\nsecurity\\_answer\\_three - The answer for security\\_answer\\_three\n\n**Response**\n\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "77772e4d-f630-a518-7abc-d3440afc4864",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/rates/find?currency_pair=EURGBP",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412339836198,
+			"name": "Retrieve Multiple Rates",
+			"description": "**GET /v2/rates/find** - Returns core rate for multiple currency pairs in a single API call\n\n**Required Fields**\n\ncurrency\\_pair - Currency pair eg. EURUSD,GBPZAR\n\n**Optional Fields**\n\non\\_behalf\\_of - Contact ID of the client\n\n**Response**\n\nrates\n\nunavailable - All currencies that are currently unavailable",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "7777337d-3420-ae7b-4823-3ae905666613",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/contacts/e7499b81-a7a7-0131-ec50-0022194273f7",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412345046189,
+			"name": "Retrieve a Contact",
+			"description": "**GET /v2/contacts/{id}** - Returns a json structure containing the details of the requested contact.\n\n\n**Required Fields**\n\nid: ID of the contact\n\n**Response**\n\nid: ID of the contact\n\naccount\\_name: Account name\n\naccount\\_id: ID of the account\n\nyour\\_reference: Your unique ID\n\nemail\\_address: Email address\n\nfirst\\_name: First name\n\nlast\\_name: Last name\n\nphone\\_number: Phone number\n\nmobile\\_phone\\_number: Mobile phone number\n\nlocale: The locale of the user as combination of an ISO 639-1 language code and ISO\\_3166-1 regional code e.g. en, en-US, fr-FR\n\nlogin\\_id: Login ID\n\nstatus: Status\n\ntimezone: The timezone of the user as it exists in the IANA tz database e.g. Europe/London, America/New\\_York (reference http://en.wikipedia.org/wiki/List\\_of\\_tz\\_database\\_time\\_zones#List)\n\ncreated\\_at: ISO 8601 Date when the Contact was created\n\nupdated\\_at: ISO 8601 Date when the Contact was last updated",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "77773475-68d8-b078-42b3-1c07a2404210",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/beneficiaries/find",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412347809475,
+			"name": "Find Beneficiaries",
+			"description": "**GET /v2/beneficiaries/find** - Return an array containing json structures of details of the accounts matching the search criteria for the logged in user.\n\n**Optional Fields**\n\nbank\\_account\\_holder\\_name: Bank account holder's name\n\nbeneficiary\\_country: A two-letter country code as defined in ISO 3166-1 that defines the beneficiary's country\n\ncurrency: 3 character ISO 4217 currency code\n\naccount\\_number: Account number\n\nrouting\\_code\\_type: Routing code type\n\nrouting\\_code\\_value: Routing code value\n\npayment\\_types: Priority or regular\n\nbic\\_swift: 8 or 11 char ISO 9362 BIC/SWIFT code\n\niban: up to 34 char international bank account number\n\ndefault\\_beneficiary: Check whether beneficiary is a default\n\nbank\\_name: Name of the bank\n\nbank\\_account\\_type: Type of bank account\n\nname: Nickname for beneficiary\n\nbeneficiary\\_entity\\_type: Type of beneficiary - can be individual or company\n\nbeneficiary\\_company\\_name: Beneficiary company name\n\nbeneficiary\\_first\\_name: Beneficiary first name\n\nbeneficiary\\_last\\_name: Beneficiary second name\n\nbeneficiary\\_city: Beneficiary city\n\nbeneficiary\\_postcode: Beneficiary postcode\n\nbeneficiary\\_state\\_or\\_province: Beneficiary state or province\n\nbeneficiary\\_date\\_of\\_birth: Beneficiary date of birth(company creation date when beneficiary\\_entity\\_type is company)\n\npage: Which page to show\n\nper\\_page: Maximum number of entries to return\n\norder: The field to order entries by\n\norder\\_asc\\_desc: Whether the order is ascending (asc) or descending (desc)\n\non\\_behalf\\_of: Contact ID of the client\n\n**Response**\n\nbeneficiaries: An array of Beneficiary objects\n\n  - id: ID of the Beneficiary\n\n  - bank\\_account\\_holder\\_name: Bank account holder's name\n\n  - email: Email address of the Beneficiary\n\n  - beneficiary\\_address: Address of the beneficiary\n\n  - beneficiary\\_country: Country\n\n  - currency: 3 character ISO 4217 currency code\n\n  - bank\\_address: Bank address\n\n  - bank\\_country: Bank country\n\n  - routing\\_code\\_type\\_1: The routing type code that identifies the bank account for the 'regular' payment type\n\n  - routing\\_code\\_value\\_1: Routing code value 1\n\n  - routing\\_code\\_type\\_2: The routing type code that identifies the bank account for the 'regular' payment type\n\n  - routing\\_code\\_value\\_2: Routing code value 2\n\n  - bank\\_name: Bank name\n\n  - bank\\_account\\_type: Bank account type\n\n  - payment\\_types: priority, regular\n\n  - creator\\_contact\\_id: Contact ID\n\n  - bic\\_swift: BIC/SWIFT code\n\n  - iban: International bank account number\n\n  - default\\_beneficiary: Boolean. Default beneficiary\n\n  - account\\_number: Account number\n\n  - name: Nickname\n\n  - beneficiary\\_entity\\_type: Beneficiary type\n\n  - beneficiary\\_company\\_name: Beneficiary company name\n\n  - beneficiary\\_first\\_name: Beneficiary first name\n\n  - beneficiary\\_last\\_name: Beneficiary last name\n\n  - beneficiary\\_city: Beneficiary city\n\n  - beneficiary\\_state\\_or\\_province: Beneficiary state or province\n\n  - beneficiary\\_postcode: Beneficiary postcode\n\n  - created\\_at: ISO 8601 Date of when record was created\n\n  - updated\\_at: ISO 8601 Date of when record was last updated\n\npagination: Pagination details relevant to the search query\n\n  - total\\_entries: Total entries for this search query\n\n  - total\\_pages: Total pages for this search query\n\n  - current\\_page: Current page of the search query\n\n  - per\\_page: Amount of search results to return per page\n\n  - previous\\_page: Previous page for this search query\n\n  - next\\_page: Next page for this search query\n\n  - order: Order of the search returned for this search query\n\n  - order\\_asc\\_desc: Order of results returned e.g. 'asc' or 'desc'\n\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "7777351b-b50b-b4f9-d3d3-fa68f477e7e8",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/settlements/c0696d4b-2e85-4fb9-b86f-5d3d405df191/unrelease",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412353736556,
+			"name": "Unrelease a Settlement",
+			"description": "**POST /v2/settlements/{id}/unrelease**\nMove the Settlement back to state 'open', allowing Conversions to be added or removed\n\n\n**Required Fields**\n\nid:Settlement ID\n\n**Optional Fields**\n\non\\_behalf\\_of: Contact ID of the client\n\nid:Settlement ID\n\n**Response**\n\nid:Settlement unique ID\n\nshort\\_reference:Unique human readable identifier\n\nstatus:Status of the Settlement\n\nconversion\\_ids:Array containing IDs of all Conversions in the Settlement\n\nentries:\t\n\ncreated\\_at:ISO 8601 Date when the Settlement was created\n\nupdated\\_at:ISO 8601 Date when the Settlement was last updated\n\nreleased\\_at:ISO 8601 Date when the Settlement was released\n\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "777735ff-5172-8940-d7f5-ed1901af6e6b",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/accounts/create?account_name=Fitz Account&legal_entity_type=company",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412342604643,
+			"name": "Create Account",
+			"description": "**POST /v2/accounts/create** - Creates a new account and returns a json structure containing the details of the requested account.\n\n**Required Fields**\n\naccount\\_name: Name of the account\n\n**Optional Fields**\n\nbrand: The brand to associate with this account\n\nyour\\_reference: Your unique customer ID\n\nstatus: Status of the account. If nothing is supplied, the default setting is enabled\n\nstreet: Street address\n\ncity: City\n\npostal\\_code: Post Code or Zip Code\n\ncountry: A two-letter country codes as defined in ISO 3166-1\n\nspread\\_table: Name of spread table\n\n\n**Response**\n\t\nid: ID of the account\n\naccount\\_name: Name of the account\n\nbrand: The brand that is associated with this account\n\nyour\\_reference: Your unique customer ID\n\nlegal\\_entity\\_type\t\n\nstatus: Status of the account\n\nstreet: First line of the address\n\ncity: City\n\ncountry: Country\n\npostal\\_code: Post Code or Zip code\n\nspread\\_table: Name of spread table\n\ncreated\\_at: ISO 8601 Date when the Account was created\n\nupdated\\_at: ISO 8601 Date when the Account was last updated\n\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "77773e80-62fc-76e9-c8e2-ecc9af2b8e50",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/beneficiaries/create?bank_account_holder_name=Mister Fitz&beneficiary_country=GB&bank_country=GB&currency=GBP&account_number=12344321&routing_code_type_1=sort_code&routing_code_value_1=112233&beneficiary_entity_type=individual&beneficiary_first_name=Jeff&beneficiary_last_name=Fitz&beneficiary_city=Jeff City&beneficiary_postcode=EC1 1XY&bank_account_type=checking",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412346693719,
+			"name": "Create Beneficiary",
+			"description": "**POST /v2/beneficiaries/create** - Creates a new beneficiary and returns a hash containing the details of the new beneficiary.\n\n**Required Fields**\n\nbank\\_account\\_holders\\_name: Bank account holder's name\n\nbeneficiary\\_country: A two-letter country code as defined in ISO 3166-1 that defines the beneficiary's country\n\nbank\\_country: A two-letter country code as defined in ISO 3166-1 of the bank account\n\ncurrency: 3 character ISO 4217 currency code\n\n**Optional Fields**\n\non\\_behalf\\_of: Contact ID of the client\n\nbank\\_account\\_holder\\_name: Bank account holder's name\n\nemail: Email address of beneficiary\n\nbeneficiary\\_address: Address of beneficiary\n\nbeneficiary\\_country: A two-letter country code as defined in ISO 3166-1 that defines the beneficiary's country\n\nbank\\_country: A two-letter country code as defined in ISO 3166-1 of the bank account\n\ncurrency: 3 character ISO 4217 currency code\n\naccount\\_number: Account number\n\nrouting\\_code\\_type\\_1: Routing code type 1\n\nrouting\\_code\\_value\\_1: Routing code value 1\n\nrouting\\_code\\_type\\_2: Routing code type 2\n\nrouting\\_code\\_value\\_2: Routing code value 2\n\npayment\\_types: Priority or regular\n\nbic\\_swift: 8 or 11 char ISO 9362 BIC/SWIFT code\n\niban: up to 34 char international bank account number\n\ndefault\\_beneficiary: boolean\n\nbank\\_address: Address of the bank\n\nbank\\_name: Name of the bank\n\nbank\\_account\\_type: Type of bank account\n\nname: Nickname for beneficiary\n\nbeneficiary\\_entity\\_type: Type of beneficiary - can be individual or company\n\nbeneficiary\\_company\\_name: Beneficiary company name\n\nbeneficiary\\_first\\_name: Beneficiary first name\n\nbeneficiary\\_last\\_name: Beneficiary second name\n\nbeneficiary\\_city: Beneficiary city\n\nbeneficiary\\_postcode: Beneficiary postcode\n\nbeneficiary\\_state\\_or\\_province: Beneficiary state or province\n\nbeneficiary\\_date\\_of\\_birth: Beneficiary date of birth(company creation date when beneficiary\\_entity\\_type is company)\n\n**Response**\n\nid: ID of the Beneficiary\n\nbank\\_account\\_holder\\_name: Bank account holder's name\n\nemail: Email address of the Beneficiary\n\nbeneficiary\\_address: Address of the beneficiary\n\nbeneficiary\\_country: Country\n\ncurrency: 3 character ISO 4217 currency code\n\nbank\\_address: Bank address\n\nbank\\_country: Bank country\n\nrouting\\_code\\_type\\_1: The routing type code that identifies the bank account for the 'regular' payment type\n\nrouting\\_code\\_value\\_1: Routing code value 1\n\nrouting\\_code\\_type\\_2: The routing type code that identifies the bank account for the 'regular' payment type\n\nrouting\\_code\\_value\\_2: Routing code value 2\n\nbank\\_name: Bank name\n\nbank\\_account\\_type: Bank account type\n\npayment\\_types: priority, regular\n\ncreator\\_contact\\_id: Contact ID\n\nbic\\_swift: BIC/SWIFT code\n\niban: International bank account number\n\ndefault\\_beneficiary: Boolean. Default beneficiary\n\naccount\\_number: Account number\n\nname: Nickname\n\nbeneficiary\\_entity\\_type: Beneficiary type\n\nbeneficiary\\_company\\_name: Beneficiary company name\n\nbeneficiary\\_first\\_name: Beneficiary first name\n\nbeneficiary\\_last\\_name: Beneficiary last name\n\nbeneficiary\\_city: Beneficiary city\n\nbeneficiary\\_state\\_or\\_province: Beneficiary state or province\n\nbeneficiary\\_postcode: Beneficiary postcode\n\ncreated\\_at: ISO 8601 Date of when record was created\n\nupdated\\_at: ISO 8601 Date of when record was last updated\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "77773f66-92a6-ac93-5196-b3f4f2331c7f",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/beneficiaries/242910e3-92a9-4d6c-af27-dbef1bb1412b?email=mister_fitz@example.com",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412346500005,
+			"name": "Update A Beneficiary",
+			"description": "**GET /v2/beneficiaries/{id}** - Returns a json structure containing the details of the requested beneficiary.\n\n**Required Fields**\n\nid: ID of the beneficiary\n\n**Optional Fields**\n\non\\_behalf\\_of: Contact ID of the client\n\nbank\\_account\\_holder\\_name: Bank account holder's name\n\nemail: Email address of beneficiary\n\nbeneficiary\\_address: Address of beneficiary\n\nbeneficiary\\_country: A two-letter country code as defined in ISO 3166-1 that defines the beneficiary's country\n\nbank\\_country: A two-letter country code as defined in ISO 3166-1 of the bank account\n\ncurrency: 3 character ISO 4217 currency code\n\naccount\\_number: Account number\n\nrouting\\_code\\_type\\_1: Routing code type 1\n\nrouting\\_code\\_value\\_1: Routing code value 1\n\nrouting\\_code\\_type\\_2: Routing code type 2\n\nrouting\\_code\\_value\\_2: Routing code value 2\n\npayment\\_types: Priority or regular\n\nbic\\_swift: 8 or 11 char ISO 9362 BIC/SWIFT code\n\niban: up to 34 char international bank account number\n\ndefault\\_beneficiary: boolean\n\nbank\\_address: Address of the bank\n\nbank\\_name: Name of the bank\n\nbank\\_account\\_type: Type of bank account\n\nname: Nickname for beneficiary\n\nbeneficiary\\_entity\\_type: Type of beneficiary - can be individual or company\n\nbeneficiary\\_company\\_name: Beneficiary company name\n\nbeneficiary\\_first\\_name: Beneficiary first name\n\nbeneficiary\\_last\\_name: Beneficiary second name\n\nbeneficiary\\_city: Beneficiary city\n\nbeneficiary\\_postcode: Beneficiary postcode\n\nbeneficiary\\_state\\_or\\_province: Beneficiary state or province\n\nbeneficiary\\_date\\_of\\_birth: Beneficiary date of birth(company creation date when beneficiary\\_entity\\_type is company)\n\n\n\n**Response**\n\nid: ID of the Beneficiary\n\nbank\\_account\\_holder\\_name: Bank account holder's name\n\nemail: Email address of the Beneficiary\n\nbeneficiary\\_address: Address of the beneficiary\n\nbeneficiary\\_country: Country\n\ncurrency: 3 character ISO 4217 currency code\n\nbank\\_address: Bank address\n\nbank\\_country: Bank country\n\nrouting\\_code\\_type\\_1: The routing type code that identifies the bank account for the 'regular' payment type\n\nrouting\\_code\\_value\\_1: Routing code value 1\n\nrouting\\_code\\_type\\_2: The routing type code that identifies the bank account for the 'regular' payment type\n\nrouting\\_code\\_value\\_2: Routing code value 2\n\nbank\\_name: Bank name\n\nbank\\_account\\_type: Bank account type\n\npayment\\_types: priority, regular\n\ncreator\\_contact\\_id: Contact ID\n\nbic\\_swift: BIC/SWIFT code\n\niban: International bank account number\n\ndefault\\_beneficiary: Boolean. Default beneficiary\n\naccount\\_number: Account number\n\nname: Nickname\n\nbeneficiary\\_entity\\_type: Beneficiary type\n\nbeneficiary\\_company\\_name: Beneficiary company name\n\nbeneficiary\\_first\\_name: Beneficiary first name\n\nbeneficiary\\_last\\_name: Beneficiary last name\n\nbeneficiary\\_city: Beneficiary city\n\nbeneficiary\\_state\\_or\\_province: Beneficiary state or province\n\nbeneficiary\\_postcode: Beneficiary postcode\n\ncreated\\_at: ISO 8601 Date of when record was created\n\nupdated\\_at: ISO 8601 Date of when record was last updated\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "77774b80-2cb5-38a2-6fd9-a00395527eaf",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/payments/89786f57-1c16-4b6e-8874-ae853d0ad0c7/delete",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412346819993,
+			"name": "Delete a Payment",
+			"description": "**POST /v2/payments/{id}/delete ** \n   Delete a prevoiusly created payment and returns a hash containing the details of the deleted payment.\n\n\n**Required Fields**\n\nid:Unique ID of payment\n\n**Response**\n\nId:Payment unique ID\n\nPayer\\_id:Unique payer ID\n\nAmount:Amount of Payment to 2dp\n\nBeneficiary\\_id:ID of the beneficiary\n\nCurrency:3 character ISO 4217 currency code\n\nConversion\\_id:Conversion unique ID\n\nReference:Reference\n\nPayment\\_type:Can be standard or local\n\nPayment\\_date:ISO 8601 Date when the payment should be paid\n\nreason\t:Reason for payment\n\nstatus:Status of the payment\n\ntransferred\\_at:ISO 8601 Date when the Payment was sent\n\nauthorisation\\_steps\\_required:Number of authorisation steps required\n\ncreator\\_contact\\_id:ID of the contact\n\nlast\\_updater\\_contact\\_id:ID of the contact\n\nshort\\_reference:transfer ID of the payment\n\nfailure\\_reason:Reason for the failure\n\ncreated\\_at:Datetime of when the Payment was created\n\nupdated\\_at:Datetime of when the Payment was last updated\n\n\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "77774c45-1e22-ee26-cecc-31b26c1b8116",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/settlements/",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412353316515,
+			"name": "Retrieve a Settlement",
+			"description": "**GET /v2/settlements/{id}**\nReturns a Settlement object for the requested ID.\n\n**Required Fields**\n\nid:Settlement ID\n\n**Optional Fields**\n\non\\_behalf\\_of: Contact ID of the client\n\n**Response**\n\nid:Settlement unique ID\n\nshort\\_reference:Unique human readable identifier\n\nstatus:Status of the Settlement\n\nconversion\\_ids:Array containing IDs of all Conversions in the Settlement\n\nentries:\t\n\ncreated\\_at:ISO 8601 Date when the Settlement was created\n\nupdated\\_at:ISO 8601 Date when the Settlement was last updated\n\nreleased\\_at:ISO 8601 Date when the Settlement was released\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "77774d98-d26c-c48e-1679-49a73f8bb534",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/accounts/bb653011-a7a7-0131-ec3a-0022194273f7",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412342219818,
+			"name": "Retrieve an Account",
+			"description": "**GET /v2/accounts/{id}** - Returns a json structure containing the details of the requested account.\n\n**Required Fields**\n\t\nid: ID of the account\n\n**Response**\n\t\nid: ID of the account\n\naccount\\_name: Name of the account\n\nbrand: The brand that is associated with this account\n\nyour\\_reference: Your unique customer ID\n\nlegal\\_entity\\_type\n\t\nstatus: Status of the account\n\nstreet: First line of the address\n\ncity: City\n\ncountry: Country\n\npostal\\_code: Post Code or Zip code\n\nspread\\_table: Name of spread table\n\ncreated\\_at: ISO 8601 Date when the Account was created\n\nupdated\\_at: ISO 8601 Date when the Account was last updated\n\n\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "777752fe-e99a-507d-6b7f-0a900e8983db",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/settlements/create",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412353418866,
+			"name": "Create a Settlement",
+			"description": "**POST /v2/settlements/create**\nCreates a new settlement and returns the settlement object\n\n**Required Fields**\n\n--\n\n**Optional Fields**\n\non\\_behalf\\_of: Contact ID of the client\n\n\n\n**Response**\n\n\nid:Settlement unique ID\n\nshort\\_reference:Unique human readable identifier\n\nstatus:Status of the Settlement\n\nconversion\\_ids:Array containing IDs of all Conversions in the Settlement\n\nentries:\t\n\ncreated\\_at:ISO 8601 Date when the Settlement was created\n\nupdated\\_at:ISO 8601 Date when the Settlement was last updated\n\nreleased\\_at:ISO 8601 Date when the Settlement was released",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "77775614-3c15-aef5-4e95-4a3d2206a2f9",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/signups/create?first_name=Fitz&last_name=Bloggs&company_name=Fitz Industries&reason=Need to pay clients&email_address=fitz2@example.com&type=api",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412339933469,
+			"name": "Create Signup",
+			"description": "**POST /v2/signups/create** - Creates a new account & contact and returns a user signup request.\n\n**Required Fields**\n\nemail\\_address: Email address\n\n**Optional Fields**\n\nfirst\\_name: First name\n\nlast\\_name: Last name\n\ncompany\\_name: Company name\n\nreason: Reason for registering\n\ntype: Type of request\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "77775fa9-61fc-1f28-017a-6dea8c1376d8",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/contacts/e7499b81-a7a7-0131-ec50-0022194273f7",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412345048941,
+			"name": "Update a Contact",
+			"description": "**POST /v2/contacts/{id}** - Updates an existing contact and returns a hash containing the details of the requested contact.\n\n**Required Fields**\n\nid: ID of the contact\n\n**Optional Fields**\n\nfirst\\_name: First name\n\nlast\\_name: Last name\n\nemail\\_address: Email address\n\nyour\\_reference: Your unique ID\n\nphone\\_number: Phone number\n\nmobile\\_phone\\_number: Mobile phone number\n\nlogin\\_id: Login ID of the contact which must be unique. (only updateable by a broker)\n\nstatus: Status (only updateable by a broker)\n\nlocale: The locale of the user as combination of an ISO 639-1 language code and ISO\\_3166-1 regional code e.g. en, en-US, fr-FR\n\ntimezone: The timezone of the user as it exists in the IANA tz database e.g. Europe/London, America/New\\_York (reference http://en.wikipedia.org/wiki/List\\_of\\_tz\\_database\\_time\\_zones#List)\n\n\n**Response**\n\nid: ID of the contact\n\naccount\\_name: Account name\n\naccount\\_id: ID of the account\n\nyour\\_reference: Your unique ID\n\nemail\\_address: Email address\n\nfirst\\_name: First name\n\nlast\\_name: Last name\n\nphone\\_number: Phone number\n\nmobile\\_phone\\_number: Mobile phone number\n\nlocale: The locale of the user as combination of an ISO 639-1 language code and ISO\\_3166-1 regional code e.g. en, en-US, fr-FR\n\nlogin\\_id: Login ID\n\nstatus: Status\n\ntimezone: The timezone of the user as it exists in the IANA tz database e.g. Europe/London, America/New\\_York (reference http://en.wikipedia.org/wiki/List\\_of\\_tz\\_database\\_time\\_zones#List)\n\ncreated\\_at: ISO 8601 Date when the Contact was created\n\nupdated\\_at: ISO 8601 Date when the Contact was last updated\n\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "77776dd0-5820-62be-3490-f618f5bf5afc",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/authenticate/close_session",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "api_key",
+					"value": "{{api_key}}",
+					"type": "text"
+				},
+				{
+					"key": "login_id",
+					"value": "{{login_id}}",
+					"type": "text"
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412325991815,
+			"name": "End API Session",
+			"description": "**POST /v2/authenticate/close\\_session** - All sessions must come to an end, either manually using the 'close session' call, or by timing out. If you know that the session is no longer required, for example because the end-user wants to logout, it is good practise to explicitly close the session rather than leaving it to time-out.",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "77776e11-7627-b477-8308-105905425091",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/accounts/bb653011-a7a7-0131-ec3a-0022194273f7",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412342396990,
+			"name": "Update an account",
+			"description": "**POST /v2/accounts/{id}** - Updates an existing account and returns a json structure containing the details of the requested account.\n\n**Required Fields**\t\n\nid: ID of the account\n\n**Optional Fields**\n\naccount\\_name: Name of the account\n\nlegal\\_entity\\_type: Account type\n\nbrand: The brand to associate with this account\n\nyour\\_reference: Your unique customer ID\n\nstatus: Status of the account\n\nstreet: Street address\n\ncity: City\n\npostal\\_code: Post Code or Zip Code\n\ncountry: A two-letter country codes as defined in ISO 3166-1\n\nspread\\_table: Name of spread table\n\n**Response**\n\t\nid: ID of the account\n\naccount\\_name: Name of the account\n\nbrand: The brand that is associated with this account\n\nyour\\_reference: Your unique customer ID\n\nlegal\\_entity\\_type\t\n\nstatus: Status of the account\n\nstreet: First line of the address\n\ncity: City\n\ncountry: Country\n\npostal\\_code: Post Code or Zip code\n\nspread\\_table: Name of spread table\n\ncreated\\_at: ISO 8601 Date when the Account was created\n\nupdated\\_at: ISO 8601 Date when the Account was last updated\n\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "777773a8-6d00-6d3f-fc43-48d8c82eafbd",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/rates/detailed?buy_currency=USD&sell_currency=NOK&fixed_side=buy&amount=10000",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412339832589,
+			"name": "Detailed Rates",
+			"description": "**GET /v2/rates/detailed - Returns rate for the client**\n\n**Required Fields**\n\nbuy\\_currency - Currency you are converting to\n\nsell\\_currency - Currency you are converting from\n\nfixed\\_side - The currency that the amount applies to, either buy or sell\n\namount - The amount to 2 decimal places\n\n**Optional Fields**\n\nconversion\\_date - The date you want the bought currency\n\non\\_behalf\\_of - Contact ID of the client\n\n**Response**\n\nsettlement\\_cut\\_off\\_time\n\nclient\\_buy\\_amount\n\nclient\\_buy\\_currency\n\ncurrency\\_pair\n \nfixed\\_side\n\nclient\\_rate\n\nclient\\_sell\\_amount\n\ncore_rate\n\ndeposit_required\n\ndeposit_amount\n\ndeposit_currency\n\nmid_market_rate\t\n\npartner_rate",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "777774de-0f7c-6292-dba3-893e6fbb591f",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/accounts/current",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412342474581,
+			"name": "Account (logged-in Contact)",
+			"description": "**GET /v2/accounts/current** - Returns a json structure containing the details of the active account.\n\n**Response**\n\t\nid: ID of the account\n\naccount\\_name: Name of the account\n\nbrand: The brand that is associated with this account\n\nyour\\_reference: Your unique customer ID\n\nlegal\\_entity\\_type\t\n\nstatus: Status of the account\n\nstreet: First line of the address\n\ncity: City\n\ncountry: Country\n\npostal\\_code: Post Code or Zip code\n\nspread\\_table: Name of spread table\n\ncreated\\_at: ISO 8601 Date when the Account was created\n\nupdated\\_at: ISO 8601 Date when the Account was last updated\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "77777838-4aaa-91ef-a960-f610db499a44",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/balances/find?amount_from=100.00&amount_to=5000.00",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "api_key",
+					"value": "{{api_key}}",
+					"type": "text"
+				},
+				{
+					"key": "login_id",
+					"value": "{{login_id}}",
+					"type": "text"
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412327631999,
+			"name": "Find Balances",
+			"description": "**GET /v2/balances/find** - Search for a range of balances and receive a paged response. This is useful if you want to see historic balances.\n\n**Optional Fields**\n\namount\\_from - Amount of balances to 2dp\n\namount\\_to - Amount of balances to 2dp\n\nas\\_at\\_date - ISO8601 Date Time to view balances at a specific point in time.\n\npage - Which page to show\n\nper\\_page - Maximum number of entries to return\n\norder - The field to order entries by\n\norder\\_asc\\_desc - Whether the order is ascending or descending.\n\n**Response**\n\nbalances - An array of balance objects:\n\n- id - Unique ID\n- account\\_id - Unique ID of related account\n- currency - 3 character ISO4217 currency code\n- amount - Amount of balance to 2dp\n- created\\_at - ISO8601 Date when the balance was created\n- updated\\_at - ISO8601 Date when the balance was last updated\n\npagination - Pagination details relevant to the search query:\n\n- total\\_entries - Total entries for this search query\n- total\\_pages - Total pages for this search query\n- current\\_page - Current page of the search query\n- per\\_page - Amount of search results to return per page\n- previous\\_page - Previous page for this search query\n- next\\_page - Next page for this search query\n- order - Order of the search returned for this search query\n- order\\_asc\\_desc - Order of results returned\n\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "77777fed-76ed-ee78-c4a0-231d8fd0379a",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/reference/settlement_accounts?currency=USD",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412341391400,
+			"name": "Settlement Accounts",
+			"description": "**GET /v2/reference/settlement\\_accounts** - Returns settlement account information, detailing where funds need to be sent to\n\n**Optional Fields**\n\ncurrency - The 3 character ISO 4217 currency code of a specific settlement account\n\n**Response**\n\nsettlement\\_accounts: An array of Settlement Account objects\n\n  - bank\\_account\\_holder\\_name: Name of the bank account holder\n\n  - beneficiary\\_address: Address of the beneficiary\n\n  - beneficiary\\_country: Country\n\n  - bank\\_name: Bank name\n\n  - bank\\_address: Bank address\n\n  - bank\\_country: Bank country\n\n  - currency: 3 character ISO 4217 currency code\n\n  - bic\\_swift: BIC/SWIFT code\n\n  - iban: International bank account number\n\n  - account\\_number: Account number\n\n  - routing\\_code\\_type\\_1: A routing code that identifies the bank account, often used for local payments\n\n  - routing\\_code\\_value\\_1: Routing code value 1\n\n  - routing\\_code\\_type\\_2: A routing code that identifies the bank account, often used for local payments\n\n  - routing\\_code\\_value\\_2: Routing code value 2",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "777780b8-fdc8-c4ab-388d-bf431d27121b",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/accounts/find",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412342934556,
+			"name": "Find Account",
+			"description": "**GET /v2/accounts/find** - Return an array containing json structures of details of the accounts matching the search criteria for the logged in user.\n\n\n**Optional Fields**\n\naccount\\_name: Name of the account\n\nbrand: The brand to associate with this account\n\nyour\\_reference: Your unique customer ID\n\nstatus: Status of the account\n\nstreet: Street address\n\ncity: City\n\npostal\\_code: Post Code or Zip Code\n\ncountry: A two-letter country codes as defined in ISO 3166-1\n\nspread\\_table: Name of spread table\n\npage: Which page to show\n\nper\\_page: Maximum number of entries to return\n\norder: The field to order entries by\n\norder\\_asc\\_desc: Whether the order is ascending or descending\n\n\n**Response**\n\naccounts: An array of Account objects\n\n  - id: ID of the account\n\n  - account\\_name: Name of account\n\n  - brand: The brand that is associated with this account\n\n  - your\\_reference: Your unique customer ID\n\n  - status: Status of the account\n\n  - street: First line of the address\n\n  - city: City\n\n  - country: Country\n\n  - postal\\_code: Post Code or Zip code\n\n  - spread\\_table: Name of spread table\n\n  - created\\_at: ISO 8601 Date when the Account was created\n\n  - updated\\_at: ISO 8601 Date when the Account was last updated\n\npagination: Pagination details relevant to the search query\n\n  - total\\_entries: Total entries for this search query\n\n  - total\\_pages: Total pages for this search query\n\n  - current\\_page: Current page of the search query\n\n  - per\\_page: Amount of search results to return per page\n\n  - previous\\_page: Previous page for this search query\n\n  - next\\_page: Next page for this search query\n\n  - order: Order of the search returned for this search query\n\n  - order\\_asc\\_desc: Order of results returned e.g. 'asc' or 'desc'\n\n\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "77778bf7-928a-f350-8a2b-8b224c68f233",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/beneficiaries/validate?beneficiary_country=GB&bank_country=GB&currency=GBP&account_number=12344321&routing_code_type_1=sort_code&routing_code_value_1=112233&beneficiary_entity_type=individual&beneficiary_first_name=Jeff&beneficiary_last_name=Fitz&beneficiary_city=Jeff City&beneficiary_postcode=EC1 1XY&bank_account_type=checking",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412335627788,
+			"name": "Validate Beneficiary Bank Details",
+			"description": "**POST /v2/beneficiaries/validate** - Validates Beneficiary details without creating one\n\n**Required Fields**\n\nbank\\_country: A two-letter country code as defined in ISO 3166-1 of the bank account\n\ncurrency: 3 character ISO 4217 currency code\n\nbeneficiary\\_country: A two-letter country code as defined in ISO 3166-1 that defines the beneficiary's country\n\n\n**Optional Fields**\n\t\nKey: Description\n\non\\_behalf\\_of: Contact ID of the client\n\naccount\\_number: Account number\n\nrouting\\_code\\_type\\_1:Routing code type 1\n\nrouting\\_code\\_value\\_1: Routing code value 1\n\nrouting\\_code\\_type\\_2: Routing code type 2\n\nrouting\\_code\\_value\\_2: Routing code value 2\n\nbic\\_swift: 8 or 11 char ISO 9362 BIC/SWIFT code\n\niban: up to 34 char international bank account number\n\nbank\\_address: Address of the bank\n\nbank\\_name: Name of the bank\n\nbank\\_account\\_type: Type of bank account\n\nbeneficiary\\_entity\\_type: Type of beneficiary - can be individual or company\n\nbeneficiary\\_company\\_name: Beneficiary company name\n\nbeneficiary\\_first\\_name: Beneficiary first name\n\nbeneficiary\\_last\\_name: Beneficiary second name\n\nbeneficiary\\_city: Beneficiary city\n\nbeneficiary\\_postcode: Beneficiary postcode\n\nbeneficiary\\_state\\_or\\_province: Beneficiary state or province\n\nbeneficiary\\_date\\_of\\_birth: Beneficiary date of birth(company creation date when beneficiary\\_entity\\_type is company)\n\n\n**Response**\n\t\nKey: Description\n\ncurrency: 3 character ISO 4217 currency code\n\nbank\\_address: Bank address\n\nbank\\_country: Bank country\n\nrouting\\_code\\_type\\_1: The routing type code that identifies the bank account for the 'regular' payment type\n\nbeneficiary\\_address: Beneficiary address\n\nbeneficiary\\_country: Country\n\nrouting\\_code\\_value\\_1: Routing code value 1\n\nrouting\\_code\\_type\\_2: The routing type code that identifies the bank account for the 'regular' payment type\n\nrouting\\_code\\_value\\_2: Routing code value 2\n\nbank\\_name: Bank name\n\nbank\\_account\\_type: Bank account type\n\npayment\\_types: priority, regular\n\nbic\\_swift: BIC/SWIFT code\n\niban: International bank account number\n\naccount\\_number: Account number\n\nbeneficiary\\_entity\\_type: Beneficiary type\n\nbeneficiary\\_company\\_name: Beneficiary company name\n\nbeneficiary\\_first\\_name: Beneficiary first name\n\nbeneficiary\\_last\\_name: Beneficiary last name\n\nbeneficiary\\_city: Beneficiary city\n\nbeneficiary\\_state\\_or\\_province: Beneficiary state or province\n\nbeneficiary\\_postcode: Beneficiary postcode\n\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "77779ba0-9883-4a07-282d-c8b12d443ab9",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/conversions/21a36022-a091-4985-83be-8c9c819cf947",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412347356552,
+			"name": "Retrieve a Conversion",
+			"description": "**GET /v2/conversions/{id}  ** \n   Returns a json structure containing the details of the requested conversion.\n\n\n**Required Fields**\n\nid:ID of the conversion\n\n**Response**\n\nId:Conversion unique ID\n\nAccount\\_id:ID that the Conversion belongs to\n\nCreator\\_contact\\_id:ID of the Contact that created the Conversion\n\nShort\\_reference:Human readable unique ID\n\nSettlement\\_date:Datetime of when sell_currency will be debited\n\nConversion\\_date:Datetime of when the buy_currency will be credited\n\nstatus:Status of the Conversion\nbetween the Partner and Currency Cloud\n\npartner\\_status:Status of the Conversion between the Partner and Client\n\ncurrency\\_pair\t:A concatenation of the two currencies being converted\n\nbuy\\_currency\t:ISO-4217 three letter currency that was bought\n\nsell\\_currency\t:ISO-4217 three letter currency that was sold\n\nfixed\\_side:The side of the Conversion that was fixed when the Conversion was booked, either 'buy' or 'sell'\n\npartner\\_buy\\_amount:Amount of the buy_currency being bought by the partner\n\npartner\\_sell\\_amount:Amount of the sell_currency being sold by the partner\n\nclient\\_buy\\_amount:Amount of the buy_currency being bought by the client\n\nclient\\_sell\\_amount:Amount of the sell_currency being sold by the client\n\nmid\\_market\\_rate:The mid-point between the bid and offer rate when the Conversion was created - often used for historical rate comparisons\n\ncore\\_rate:Rate that Currency Cloud paid for the Conversion\n\npartner\\_rate:Rate that the partner paid for the Conversion\n\nclient\\_rate:Rate that the client paid for the Conversion\n\ndeposit\\_required:Whether or not a deposit is required for the Conversion\n\ndeposit\\_status:Status of the deposit, if required\n\ndeposit\\_currency:ISO-4217 three letter currency of the deposit, if required\n\ndeposit\\_amount:Amount of the deposit, if required\n\ndeposit\\_required\\_at:Datetime of when the deposit has to be received by, if required\n\npayment\\_ids:Array of Payment IDs that are related to the Conversion\n\ncreated\\_at:Datetime of when the Conversion was created\n\nupdated\\_at:Datetime of when the Conversion was last updated\n\n\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "77779fc1-1328-86b3-b42a-0f7856b4ca84",
+			"headers": "",
+			"url": "{{url}}/authenticate/api",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "POST",
+			"data": [
+				{
+					"key": "api_key",
+					"value": "{{api_key}}",
+					"type": "text"
+				},
+				{
+					"key": "login_id",
+					"value": "{{login_id}}",
+					"type": "text"
+				}
+			],
+			"dataMode": "params",
+			"name": "API User Login",
+			"description": "**POST /v2/authenticate/api** - Generates an auth token for the api user which needs to be used in all subsequent calls.\n\n**Required fields:**\n\nlogin\\_id - The login id of the user\n\napi\\_key - A unique value that is the user's api key\n\n**Response:**\n\nauth\\_token - The auth token to use on subsequent requests\n\n[View Documentation](https://beta.currencycloud.com/documentation/api-docs/post-authenticate-api)",
+			"descriptionFormat": "html",
+			"time": 1412324939247,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"synced": false
+		},
+		{
+			"id": "7777a1ae-cb16-3a6a-c0ca-22d3ecb4a5e9",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/settlements/{id}/add_conversion",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412353803971,
+			"name": "Add a Conversion to Settlement",
+			"description": "**POST /v2/settlements/{id}/add_conversion**\nAdd a Conversion to an open Settlement. Returns the updated Settlement object.\n\n**Required Fields**\n\nid:Settlement ID\n\nconversion_id:ID of the conversion\n\n\n**Optional Fields**\n\non\\_behalf\\_of: Contact ID of the client\n\n\n**Response**\n\nid:Settlement unique ID\n\nshort\\_reference:Unique human readable identifier\n\nstatus:Status of the Settlement\n\nconversion\\_ids:Array containing IDs of all Conversions in the Settlement\n\nentries:\t\n\ncreated\\_at:ISO 8601 Date when the Settlement was created\n\nupdated\\_at:ISO 8601 Date when the Settlement was last updated\n\nreleased\\_at:ISO 8601 Date when the Settlement was released\n\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "7777af13-ddf6-8506-4f29-82a0f4b239dd",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/reference/beneficiary_required_details?currency=USD&bank_account_country=US",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412341136869,
+			"name": "Beneficiary Required Details",
+			"description": "**GET /v2/reference/beneficiary\\_required\\_details** - Returns required beneficiary details and their basic validation formats\n\n**Optional Fields**\n\ncurrency - The 3 character ISO 4217 currency code of the beneficiary's bank account\n\nbank\\_account\\_country - A two-letter country code as defined in ISO 3166-1\n\n**Response**\n\ndetails - An array of fields that are required\n\npayment\\_type - Payment type that is supported by current beneficiary. Can be priority or regular.",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "7777b077-210f-e0e3-343a-1eaef07e1a4b",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/settlements/{{id}}/delete",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412353858692,
+			"name": "Delete a Settlement",
+			"description": "**POST /v2/settlements/{id}/delete**\nDeletes an open Settlement and returns the Settlement object in its final state.\n\n\n**Required Fields**\n\nid:Settlement ID\n\n\n**Optional Fields**\n\non\\_behalf\\_of: Contact ID of the client\n\n\n**Response**\n\nid:Settlement unique ID\n\nshort\\_reference:Unique human readable identifier\n\nstatus:Status of the Settlement\n\nconversion\\_ids:Array containing IDs of all Conversions in the Settlement\n\nentries:\t\n\ncreated\\_at:ISO 8601 Date when the Settlement was created\n\nupdated\\_at:ISO 8601 Date when the Settlement was last updated\n\nreleased\\_at:ISO 8601 Date when the Settlement was released\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "7777bafb-a2d6-4138-6b9f-f26e7bafa9e7",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/reference/conversion_dates?conversion_pair=EURGBP",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412341586021,
+			"name": "Conversion Dates",
+			"description": "**GET /v2/reference/conversion\\_dates** - Returns a dates for which dates this currency pair can not be traded\n\n**Required Fields**\n\nconversion\\_pair: The conversion pair to get delivery dates for e.g. USDGBP, EURMXN\n\n**Optional Fields**\n\nstart\\_date: An ISO 8601 date time from where to calculate conversion dates from\n\n**Response**\n\ninvalid\\_conversion\\_dates: A list of dates and reasons why a conversion can not occur\n\nfirst\\_conversion\\_date: The first delivery date that a conversion can be executed on\n\ndefault\\_conversion\\_date: The default delivery date that a conversion can be executed on.",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "7777bd80-8c02-cf98-f7a1-b4e27cad6afc",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/conversions/create",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "buy_currency",
+					"value": "USD",
+					"type": "text"
+				},
+				{
+					"key": "sell_currency",
+					"value": "GBP",
+					"type": "text"
+				},
+				{
+					"key": "fixed_side",
+					"value": "buy",
+					"type": "text"
+				},
+				{
+					"key": "amount",
+					"value": "10000",
+					"type": "text"
+				},
+				{
+					"key": "reason",
+					"value": "testing",
+					"type": "text"
+				},
+				{
+					"key": "term_agreement",
+					"value": "true",
+					"type": "text"
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412347849130,
+			"name": "Create a Conversion",
+			"description": "**POST /v2/conversions/create  ** \n    Returns a json structure containing the details of the created conversion.\n\n\n**Required Fields**\n\nBuy\\_currency:\t\n\nSell\\_currency:\t\n\nFixed\\_side:\t\n\nAmount:\t\n\nreason:Reason for currency conversion\n\nterm\\_agreement:Terms and conditions\n\n**Optional Fields**\n\non\\_behalf_of\t:Contact ID of the client\n\nconversion\\_date:if nothing passed then default uses first_conversion_date\n\nbeneficiary\\_id:\n\nclient\\_rate:Set the client rate instead of using a spread table\n\ncurrency\\_pair:real market pair - required if supplying client_rate\n\npayment\\_reason:Reason for payment - required when supplying a beneficiary\\_id\n\npayment\\_type:Can be priority or regular\n\npayment\\_reference:Payment reference - required when supplying a beneficiary\\_id\n\n\n\n**Response**\n\nid:Conversion unique ID\n\naccount\\_id:ID that the Conversion belongs to\n\ncreator\\_contact\\_id\t:ID of the Contact that created the Conversion\n\nshort\\_reference:Human readable unique ID\n\nsettlement\\_date:Datetime of when sell_currency will be debited\n\nconversion\\_date:Datetime of when the buy_currency will be credited\n\nstatus:Status of the Conversion between the Partner and Currency Cloud\n\npartner\\_status:Status of the Conversion between the Partner and Client\n\ncurrency\\_pair:A concatenation of the two currencies being converted\n\nbuy\\_currency:ISO-4217 three letter currency that was bought\n\nsell\\_currency:ISO-4217 three letter currency that was sold\n\nfixed\\_side:The side of the Conversion that was fixed when the Conversion was booked, either 'buy' or 'sell'\n\npartner\\_buy\\_amount:Amount of the buy_currency being bought by the partner\n\npartner\\_sell\\_amount:Amount of the sell_currency being sold by the partner\n\nclient\\_buy\\_amount\t:Amount of the buy_currency being bought by the client\n\nclient\\_sell\\_amount\t:Amount of the sell_currency being sold by the client\n\nmid\\_market\\_rate:The mid-point between the bid and offer rate when the Conversion was created - often used for historical rate comparisons\n\ncore\\_rate:Rate that Currency Cloud paid for the Conversion\n\npartner\\_rate:Rate that the partner paid for the Conversion\n\nclient\\_rate:Rate that the client paid for the Conversion\n\ndeposit\\_required:Whether or not a deposit is required for the Conversion\n\ndeposit\\_status:Status of the deposit, if required\n\ndeposit\\_currency:ISO-4217 three letter currency of the deposit, if required\n\ndeposit\\_amount:Amount of the deposit, if required\n\ndeposit\\_required_at\t:Datetime of when the deposit has to be received by, if required\n\npayment\\_ids\t:Array of Payment IDs that are related to the Conversion\n\ncreated\\_at:Datetime of when the Conversion was created\n\nupdated\\_at:Datetime of when the Conversion was last updated\n\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "7777c56c-eac0-69cb-a45f-be7e4d92176f",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/balances/GBP",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "api_key",
+					"value": "{{api_key}}",
+					"type": "text"
+				},
+				{
+					"key": "login_id",
+					"value": "{{login_id}}",
+					"type": "text"
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412326917884,
+			"name": "Retrieve A Balance",
+			"description": "**GET /v2/balances/{currency}** - Provides the balance for a currency and shows the date that the balance was last updated.\n\n**Required Fields**\n\ncurrency - 3 digit ISO 4217 currency code\n\n**Response**\n\nid - Unique ID\n\naccount\\_id - Unique ID of related account\n\ncurrency - 3 character ISO 4217 currency code\n\namount - Amount of balance to 2dp\n\ncreated\\_at - ISO8601 date when the balance was created\n\nupdated\\_at - ISO8601 date when the balance was last updated\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "7777c641-40f6-0e7d-3a7a-0244c812cd73",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/beneficiaries/242910e3-92a9-4d6c-af27-dbef1bb1412b",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412345532842,
+			"name": "Retrieve a Beneficiary",
+			"description": "**GET /v2/beneficiaries/{id}** - Returns a json structure containing the details of the requested beneficiary.\n\n**Required Fields**\n\nid: ID of the beneficiary\n\n**Optional Fields**\n\non\\_behalf\\_of: Contact ID of the client\n\n**Response**\n\nid: ID of the Beneficiary\n\nbank\\_account\\_holder\\_name: Bank account holder's name\n\nemail: Email address of the Beneficiary\n\nbeneficiary\\_address: Address of the beneficiary\n\nbeneficiary\\_country: Country\n\ncurrency: 3 character ISO 4217 currency code\n\nbank\\_address: Bank address\n\nbank\\_country: Bank country\n\nrouting\\_code\\_type_1: The routing type code that identifies the bank account for the 'regular' payment type\n\nrouting\\_code\\_value\\_1: Routing code value 1\n\nrouting\\_code\\_type\\_2: The routing type code that identifies the bank account for the 'regular' payment type\n\nrouting\\_code\\_value\\_2: Routing code value 2\n\nbank\\_name: Bank name\n\nbank\\_account\\_type: Bank account type\n\npayment\\_types: priority, regular\n\ncreator\\_contact\\_id: Contact ID\n\nbic\\_swift: BIC/SWIFT code\n\niban: International bank account number\n\ndefault\\_beneficiary: Boolean. Default beneficiary\n\naccount\\_number: Account number\n\nname: Nickname\n\nbeneficiary\\_entity\\_type: Beneficiary type\n\nbeneficiary\\_company\\_name: Beneficiary company name\n\nbeneficiary\\_first\\_name: Beneficiary first name\n\nbeneficiary\\_last\\_name: Beneficiary last name\n\nbeneficiary\\_city: Beneficiary city\n\nbeneficiary\\_state\\_or\\_province: Beneficiary state or province\n\nbeneficiary\\_postcode: Beneficiary postcode\n\ncreated\\_at: ISO 8601 Date of when record was created\n\nupdated\\_at: ISO 8601 Date of when record was last updated\n\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "7777c7e0-ed27-e481-9e00-1db6e8040dcc",
+			"headers": "",
+			"url": "{{url}}/authenticate/login",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "nonce",
+					"value": "{{nonce}}",
+					"type": "text"
+				},
+				{
+					"key": "security_answer",
+					"value": "{{security_answer}}",
+					"type": "text"
+				},
+				{
+					"key": "password",
+					"value": "{{password}}",
+					"type": "text"
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412325700608,
+			"name": "Contact Login",
+			"description": "**POST /v2/authenticate/login** - Generates an auth token for the contact which needs to be used in all subsequent calls.\n\n**Required fields:**\n\nnonce - The nonce for the authentication request\n\nsecurity\\_answer - The answer for the question retrieved from /authentication/user\n\npassword - The password for the user\n\n**Response:**\n\nauth\\_token - The auth token to use on subsequent requests",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "7777db17-64ed-35e3-7c27-eacdf54ab881",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/transactions/123455",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "api_key",
+					"value": "{{api_key}}",
+					"type": "text"
+				},
+				{
+					"key": "login_id",
+					"value": "{{login_id}}",
+					"type": "text"
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412340763879,
+			"name": "Retrieve a Transaction",
+			"description": "**GET /v2/transactions/{id}** - Find the details of a specific transaction\n\n**Required Fields**\n\t\nid: Transaction ID\n\n**Response**\n\t\nid: Unique ID\n\nbalance\\_id: Unique ID of related Balance\n\naccount\\_id: Unique ID of related Account\n\ncurrency: 3 character ISO 4217 currency code\n\namount: Absolute Amount of the transaction to 2dp\n\nbalance\\_amount: Amount of the Balance at the time of the transaction - will be null for 'pending' transactions.\n\ntype: 'credit' or 'debit'\n\naction: The action that caused the transaction to be created - funding, conversion, payment, payment\\_failure, manual\\_intervention\n\nrelated\\_entity\\_type: Related Object type that created the transaction - conversion, payment or inbound\\_funds\n\nrelated\\_entity\\_id: Unique ID of the related Object that created the transaction\n\nstatus: Current status of transactions - pending, processing, completed, deleted.\n\nreason: Description of transactions - free form text\n\nsettles\\_at: ISO 8601 Date when the transaction is expected to be processed\n\ncreated\\_at: ISO 8601 Date when the transaction was created\n\nupdated\\_at: ISO 8601 Date when the transaction was last updated\n\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "7777dcb6-1f23-becd-2f5b-63ae14222aad",
+			"headers": "",
+			"url": "{{url}}/authenticate/user?login_id={{login_id}}",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "nonce",
+					"value": "{{nonce}}",
+					"type": "text"
+				},
+				{
+					"key": "security_answer",
+					"value": "{{security_answer}}",
+					"type": "text"
+				},
+				{
+					"key": "password",
+					"value": "{{password}}",
+					"type": "text"
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412325791820,
+			"name": "Login Security Question",
+			"description": "**GET /v2/authenticate/user** - Retrieves a security question to be displayed to the user. The user must answer the question successfully to be able to log in.\n\n**Required fields:**\n\nlogin\\_id - The login id of the user\n\n\n**Response:**\n\nnonce - A short-lived token that is used for a subsequent login request.\n\nsecurity\\_code - An enumeration that identifies the security question\n\nsecurity\\_question - A security question in English that needs to be answered for a successful login",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "7777dccb-3a90-5e20-9a74-cc3268022fb1",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/contacts/create?account_id=91b76af6-0677-4f94-92ec-82a4fd09ede5&first_name=Mister&last_name=Fitz&email_address=misterfitz@example.com&phone_number=112233",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412345055765,
+			"name": "Create Contact",
+			"description": "**POST /v2/contacts/create** - Creates a new contact and returns a hash containing the details of the requested contact.\n\n**Required Fields**\n\naccount\\_id: ID of the account\n\nfirst\\_name: First name\n\nlast\\_name: Last name\n\nemail\\_address: Email address\n\nphone\\_number: Phone number\n\n**Optional Fields**\n\nyour\\_reference: Your unique ID\n\nmobile\\_phone\\_number: Mobile phone number\n\nlogin\\_id: Login ID of the contact which must be unique. (If none is specified the contact's email address is used)\n\nstatus: Status (only updateable by a broker)\n\nlocale: The locale of the user as combination of an ISO 639-1 language code and ISO\\_3166-1 regional code e.g. en, en-US, fr-FR\n\ntimezone: The timezone of the user as it exists in the IANA tz database e.g. Europe/London, America/New\\_York (reference http://en.wikipedia.org/wiki/List\\_of\\_tz\\_database\\_time\\_zones#List)\n\n\n**Response**\n\nid: ID of the contact\n\naccount\\_name: Account name\n\naccount\\_id: ID of the account\n\nyour\\_reference: Your unique ID\n\nemail\\_address: Email address\n\nfirst\\_name: First name\n\nlast\\_name: Last name\n\nphone\\_number: Phone number\n\nmobile\\_phone\\_number: Mobile phone number\n\nlocale: The locale of the user as combination of an ISO 639-1 language code and ISO\\_3166-1 regional code e.g. en, en-US, fr-FR\n\nlogin\\_id: Login ID\n\nstatus: Status\n\ntimezone: The timezone of the user as it exists in the IANA tz database e.g. Europe/London, America/New\\_York (reference http://en.wikipedia.org/wiki/List\\_of\\_tz\\_database\\_time\\_zones#List)\n\ncreated\\_at: ISO 8601 Date when the Contact was created\n\nupdated\\_at: ISO 8601 Date when the Contact was last updated\n\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "7777e077-387a-7ad0-488f-496d21888101",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/conversions/find",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "buy_currency",
+					"value": "USD",
+					"type": "text"
+				},
+				{
+					"key": "sell_currency",
+					"value": "GBP",
+					"type": "text"
+				},
+				{
+					"key": "fixed_side",
+					"value": "buy",
+					"type": "text"
+				},
+				{
+					"key": "amount",
+					"value": "10000",
+					"type": "text"
+				},
+				{
+					"key": "reason",
+					"value": "testing",
+					"type": "text"
+				},
+				{
+					"key": "term_agreement",
+					"value": "true",
+					"type": "text"
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412348512551,
+			"name": "Find a Conversion",
+			"description": "**GET /v2/conversions/find  ** \n    Return an array containing json structures of details of the conversions matching the search criteria for the logged in user.\n\n\n**Required Fields**\n\n--\n\n\n**Optional Fields**\n\nshort\\_reference:Unique human readable identifier\n\nstatus:The current status of the Conversion\n\npartner\\_status:The partner status of the Conversion\n\nbuy\\_currency\t:3 character ISO 4217 currency code\n\nsell\\_currency:3 character ISO 4217 currency code\n\nconversion\\_ids:Array of conversion ids\n\ncreated\\_at\\_from:ISO 8601 Datetime when the payment was created\n\ncreated\\_at\\_to:ISO 8601 Datetime when the payment was created\n\nupdated\\_at\\_from:ISO 8601 Datetime when the payment was updated\n\nupdated\\_at\\_to: ISO 8601 Datetime when the payment was updated\n\ncurrency\\_pair:Currency pair\n\npartner\\_buy\\_amount\\_from:\t\n\npartner\\_buy\\_amount\\_to:\n\npartner\\_sell\\_amount\\_from:\n\npartner\\_sell\\_amount\\_to:\n\nbuy\\_amount\\_from:\t\n\nbuy\\_amount\\_to:\t\n\nsell\\_amount\\_from:\t\n\nsell\\_amount\\_to:\n\non_\\behalf\\_of: Contact ID of the client\n\n\n**Response**\n\nConversions:An array of Conversion objects\n\nid:Conversion unique ID\n\naccount\\_id:ID that the Conversion belongs to\n\ncreator\\_contact\\_id\t:ID of the Contact that created the Conversion\n\nshort\\_reference:Human readable unique ID\n\nsettlement\\_date:Datetime of when sell_currency will be debited\n\nconversion\\_date:Datetime of when the buy_currency will be credited\n\nstatus:Status of the Conversion between the Partner and Currency Cloud\n\npartner\\_status:Status of the Conversion between the Partner and Client\n\ncurrency\\_pair:A concatenation of the two currencies being converted\n\nbuy\\_currency:ISO-4217 three letter currency that was bought\n\nsell\\_currency:ISO-4217 three letter currency that was sold\n\nfixed\\_side:The side of the Conversion that was fixed when the Conversion was booked, either 'buy' or 'sell'\n\npartner\\_buy\\_amount:Amount of the buy_currency being bought by the partner\n\npartner\\_sell\\_amount:Amount of the sell_currency being sold by the partner\n\nclient\\_buy\\_amount\t:Amount of the buy_currency being bought by the client\n\nclient\\_sell\\_amount\t:Amount of the sell_currency being sold by the client\n\nmid\\_market\\_rate:The mid-point between the bid and offer rate when the Conversion was created - often used for historical rate comparisons\n\ncore\\_rate:Rate that Currency Cloud paid for the Conversion\n\npartner\\_rate:Rate that the partner paid for the Conversion\n\nclient\\_rate:Rate that the client paid for the Conversion\n\ndeposit\\_required:Whether or not a deposit is required for the Conversion\n\ndeposit\\_status:Status of the deposit, if required\n\ndeposit\\_currency:ISO-4217 three letter currency of the deposit, if required\n\ndeposit\\_amount:Amount of the deposit, if required\n\ndeposit\\_required_at\t:Datetime of when the deposit has to be received by, if required\n\npayment\\_ids\t:Array of Payment IDs that are related to the Conversion\n\ncreated\\_at:Datetime of when the Conversion was created\n\nupdated\\_at:Datetime of when the Conversion was last updated\n\npagination:Pagination details relevant to the search query\n\n total\\_entries:Total entries for this search query\n \n  total\\_pages:Total pages for this search query\n  \n  current\\_page:Current page of the search query\n  \n  per\\_page:Amount of search results to return per page\n  \n previous\\_page:Previous page for this search query\n \n  next\\_page:Next page for this search query\n  \n  order\t:Order of the search returned for this search query\n  \n  order\\_asc\\_desc:Order of results returned e.g. 'asc' or 'desc'\n\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "7777e496-7af1-ac0d-ee34-ddacf49684a4",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/transactions/find",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "api_key",
+					"value": "{{api_key}}",
+					"type": "text"
+				},
+				{
+					"key": "login_id",
+					"value": "{{login_id}}",
+					"type": "text"
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412340767024,
+			"name": "Find Transactions",
+			"description": "**GET /v2/transactions/find** - Search for transactions that meet a number of criteria and receive a paged response.\n\n**Optional Fields**\n\t\ncurrency: 3 digit ISO 4217 currency code\n\namount: Absolute Amount of the transactions to 2dp\n\namount\\_from: Absolute Amount of the transactions to 2dp\n\namount\\_to: Absolute Amount of the transactions to 2dp\n\naction: The action that caused the transaction to be created - funding, conversion, payment, payment\\_failure, manual\\_intervention\n\nrelated\\_entity\\_type: Related Object type that created the transaction - conversion, payment, inbound\\_funds\n\nrelated\\_entity\\_id: Unique ID of the related Object that created the transaction\n\nstatus: Current status of transactions - pending, processing, completed, deleted. Default to show completed and processing transactions.\n\nreason: Description of transactions - free form text\n\nsettles\\_at\\_from: ISO 8601 Date when the transaction is expected to be processed\n\nsettles\\_at\\_to: ISO 8601 Date when the transaction is expected to be processed\n\ncreated\\_at\\_from: ISO 8601 Date when the transaction was created\n\ncreated\\_at\\_to: ISO 8601 Date when the transaction was created\n\nupdated\\_at\\_from: ISO 8601 Date when the transaction was last updated\n\nupdated\\_at\\_to: ISO 8601 Date when the transaction was last updated\n\npage: Which page to show\n\nper\\_page: Maximum number of entries to return\n\norder: The field to order entries by\n\norder_asc_desc: Whether the order is ascending (asc) or descending (desc)\n\n**Response**\n\t\ntransactions: An array of Transaction objects\n\n  - id: Unique ID\n  \n  - balance\\_id: Unique ID of related Balance\n  \n  - account\\_id: Unique ID of related Account\n  \n  - currency: 3 character ISO 4217 currency code\n  \n  - amount: Absolute Amount of the transaction to 2dp\n  \n  - balance\\_amount: Amount of the Balance at the time of the transaction - will be null for 'pending' transactions.\n  \n  - type: 'credit' or 'debit'\n  \n  - action: The action that caused the transaction to be created - funding, conversion, payment, payment\\_failure, manual\\_intervention\n  \n  - related\\_entity\\_type: Related Object type that created the transaction - conversion, payment or inbound\\_funds\n  \n  - related\\_entity\\_id: Unique ID of the related Object that created the transaction\n  \n  - status: Current status of transactions - pending, processing, completed, deleted.\n  \n  - reason: Description of transactions - free form text\n  \n  - settles\\_at: ISO 8601 Date when the transaction is expected to be processed\n  \n  - created\\_at: ISO 8601 Date when the transaction was created\n  \n  - updated\\_at: ISO 8601 Date when the transaction was last updated\n\npagination: Pagination details relevant to the search query\n\n  - total\\_entries: Total entries for this search query\n  \n  - total\\_pages: Total pages for this search query\n  \n  - current\\_page: The current page of the search query\n  \n  - per_page: The amount of search results to return per page\n  \n  - previous\\_page: The previous page for this search query\n  \n  - next\\_page: The next page for this search query\n  \n  - order: The order of the search returned for this search query\n  \n  - order\\_asc\\_desc: The order of results returned e.g. 'asc' or 'desc'\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "7777f133-9a00-9d40-8030-0e08acc664ef",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/payers/{id}",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412343903014,
+			"name": "Retrieve a Payer",
+			"description": "**GET /v2/payers/{id}**\nReturns a hash containing the details of the requested payer.\n\n\n**Required Fields**\n\nid:Unique ID of payer\n\n**Response**\n\nid:Payer unique ID\n\nlegal\\_entity\\_type:Legal Entity type\n\ncompany\\_name:Company name - if\nlegal_entity_type is 'company'\n\nfirst\\_name:First name - if legal_entity_type is 'individual'\n\nlast\\_name:Last name - if legal_entity_type is 'individual'\n\naddress:Address\n\ncity:City\n\nstate\\_or\\_province:State or Province if applicable\n\ncountry:ISO 3166-1 two-letter country code\n\npostcode:Postcode\n\ndate\\_of\\_birth:Date of Birth. If the legal_entity_type is 'company', the field will represent the company's creation date\n\ncreated\\_at:Datetime of when the Payer was created\n\nupdated\\_at:Datetime of when the Payer was last updated\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "7777f58f-dead-9f04-9a9a-76b0f3cbce02",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/contacts/current",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412345052021,
+			"name": "Contact (logged-in Contact)",
+			"description": "**GET /v2/contacts/current** - Returns a json structure containing the details of the active contact.\n\n\n**Response**\n\nid: ID of the contact\n\naccount\\_name: Account name\n\naccount\\_id: ID of the account\n\nyour\\_reference: Your unique ID\n\nemail\\_address: Email address\n\nfirst\\_name: First name\n\nlast\\_name: Last name\n\nphone\\_number: Phone number\n\nmobile\\_phone\\_number: Mobile phone number\n\nlocale: The locale of the user as combination of an ISO 639-1 language code and ISO\\_3166-1 regional code e.g. en, en-US, fr-FR\n\nlogin\\_id: Login ID\n\nstatus: Status\n\ntimezone: The timezone of the user as it exists in the IANA tz database e.g. Europe/London, America/New\\_York (reference http://en.wikipedia.org/wiki/List\\_of\\_tz\\_database\\_time\\_zones#List)\n\ncreated\\_at: ISO 8601 Date when the Contact was created\n\nupdated\\_at: ISO 8601 Date when the Contact was last updated\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "7777ff3d-dde7-6cb1-83f0-ac3e9a4755ed",
+			"headers": "X-AUTH-TOKEN: {{auth_token}}\n",
+			"url": "{{url}}/payments/008e538a-aeaf-4bf1-90eb-17a79c290867",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"time": 1412344234360,
+			"name": "Retrieve a Payment",
+			"description": "**GET /v2/payments/{id}**\nReturns a hash containing the details of the requested payment.\n\n\n**Required Fields**\n\nid:Unique ID of payment\n\n**Response**\n\nId:Payment unique ID\n\nPayer\\_id:Unique payer ID\n\namount:Amount of Payment to 2dp\n\nbeneficiary\\_id:ID of the beneficiary\n\ncurrency:3 character ISO 4217 currency code\n\nconversion\\_id:Conversion unique ID\nreference:Reference\n\npayment\\_type:Can be standard or local\n\npayment\\_date:ISO 8601 Date when the payment should be paid\n\nreason\t:Reason for payment\n\nstatus:Status of the payment\n\ntransferred\\_at:ISO 8601 Date when the Payment was sent\n\nauthorisation\\_steps\\_required:Number of authorisation steps required\n\ncreator\\_contact\\_id\t:ID of the contact\n\nlast\\_updater\\_contact\\_id:ID of the contact\n\nshort\\_reference:transfer ID of the payment\n\nfailure\\_reason:Reason for the failure\n\ncreated\\_at:Datetime of when the Payment was created\n\nupdated\\_at:Datetime of when the Payment was last updated\n",
+			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
+			"responses": [],
+			"synced": false
+		}
+	]
+}
