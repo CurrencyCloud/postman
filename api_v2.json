@@ -943,7 +943,7 @@
 			"tests": "",
 			"time": 1412341136869,
 			"name": "Beneficiary Required Details",
-			"description": "**GET /v2/reference/beneficiary\\_required\\_details** - Returns required beneficiary details and their basic validation formats\n\n**Optional Fields**\n\ncurrency - The 3 character ISO 4217 currency code of the beneficiary's bank account\n\nbank\\_account\\_country - A two-letter country code as defined in ISO 3166-1\n\n**Response**\n\ndetails - An array of fields that are required\n\npayment\\_type - Payment type that is supported by current beneficiary. Can be priority or regular.",
+			"description": "**GET /v2/reference/beneficiary\\_required\\_details** - Returns required beneficiary details and their basic validation formats\n\n**Optional Fields**\n\ncurrency - The 3 character ISO 4217 currency code of the beneficiary's bank account\n\nbank\\_account\\_country - A two-letter country code as defined in ISO 3166-1\n\nbeneficiary_country - The two letter contry code for the beneficiary\n\n**Response**\n\ndetails - An array of fields that are required\n\npayment\\_type - Payment type that is supported by current beneficiary. Can be priority or regular.",
 			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
 			"responses": [],
 			"synced": false
