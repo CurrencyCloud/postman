@@ -477,7 +477,7 @@
 			"tests": "",
 			"time": 1412339836198,
 			"name": "Retrieve Multiple Rates",
-			"description": "**GET /v2/rates/find** - Returns core rate for multiple currency pairs in a single API call\n\n**Required Fields**\n\ncurrency\\_pair - Currency pair eg. EURUSD,GBPZAR\n\n**Optional Fields**\n\non\\_behalf\\_of - Contact ID of the client\n\n**Response**\n\nrates\n\nunavailable - All currencies that are currently unavailable",
+			"description": "**GET /v2/rates/find** - Returns core rate for multiple currency pairs in a single API call\n\n**Required Fields**\n\ncurrency\\_pair - Currency pair eg. EURUSD,GBPZAR\n\n**Optional Fields**\n\non\\_behalf\\_of - Contact ID of the client\n\nignore\\_invalid\\_pairs - Ignore invalid pairings\n\n**Response**\n\nrates\n\nunavailable - All currencies that are currently unavailable",
 			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
 			"responses": [],
 			"synced": false
@@ -758,7 +758,7 @@
 			"tests": "",
 			"time": 1412339832589,
 			"name": "Detailed Rates",
-			"description": "**GET /v2/rates/detailed - Returns rate for the client**\n\n**Required Fields**\n\nbuy\\_currency - Currency you are converting to\n\nsell\\_currency - Currency you are converting from\n\nfixed\\_side - The currency that the amount applies to, either buy or sell\n\namount - The amount to 2 decimal places\n\n**Optional Fields**\n\nconversion\\_date - The date you want the bought currency\n\non\\_behalf\\_of - Contact ID of the client\n\n**Response**\n\nsettlement\\_cut\\_off\\_time\n\nclient\\_buy\\_amount\n\nclient\\_buy\\_currency\n\ncurrency\\_pair\n \nfixed\\_side\n\nclient\\_rate\n\nclient\\_sell\\_amount\n\ncore_rate\n\ndeposit_required\n\ndeposit_amount\n\ndeposit_currency\n\nmid_market_rate\t\n\npartner_rate",
+			"description": "**GET /v2/rates/detailed - Returns rate for the client**\n\n**Required Fields**\n\nbuy\\_currency - Currency you are converting to\n\nsell\\_currency - Currency you are converting from\n\nfixed\\_side - The currency that the amount applies to, either buy or sell\n\namount - The amount to 2 decimal places\n\n**Optional Fields**\n\nconversion\\_date - The date you want the bought currency\n\non\\_behalf\\_of - Contact ID of the client\n\n**Response**\n\nsettlement\\_cut\\_off\\_time\n\ncurrency\\_pair\n\nclient\\_buy\\_currency\n\nclient\\_sell\\_currency\n\nclient\\_buy\\_amount\n\nclient\\_sell\\_amount\n\nfixed\\_side\n\nmid\\_market\\_rate\n\nclient\\_rate\n\npartner\\_rate\n\ncore\\_rate\n\ndeposit\\_required\n\ndeposit\\_amount\n\ndeposit\\_currency\n\n",
 			"collectionId": "99992e35-3b43-1645-a3ab-770044a21090",
 			"responses": [],
 			"synced": false
