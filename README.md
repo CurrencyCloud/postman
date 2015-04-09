@@ -281,7 +281,7 @@ value somewhere so that we can use it in the payment call.
 
 The final stage is to make a payment to the beneficiary that we have
 just created, using the conversion that we made earlier on. To do this,
-we use the'Create a Payment' API call, located in the 'Payments' folder, 
+we use the 'Create a Payment' API call, located in the 'Payments' folder, 
 underneath the collections tab. We fill in all of the required 
 parameters, and add an optional parameter called 'conversion\_id' which
 will hold the id of the conversion we made earlier on in this tutorial. 
@@ -289,7 +289,7 @@ Click 'Send' to complete the API call.
 
 ![](media/image24.png)
 
-If the payment creation is succesful, we wil get a response that looks 
+If the payment creation is succesful, we will get a response that looks 
 like the following:
 
 ![](media/image25.png)
@@ -302,7 +302,6 @@ order to finalise the process.
 Conclusion
 ==========
 
-This is just a snippet of the full 
-functionality of the Currency Cloud API. Now that you know the basics, 
-why not give us a call and see how we can help integrate your business 
-with our API.
+This is just a snippet of the full functionality of the Currency Cloud 
+API. Now that you know the basics, why not give us a call and see how 
+we can help integrate your business with our API.
