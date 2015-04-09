@@ -289,14 +289,14 @@ Click 'Send' to complete the API call.
 
 ![](media/image24.png)
 
-If the payment creation is succesful, we will get a response that looks 
+If the payment creation is successful, we will get a response that looks 
 like the following:
 
 ![](media/image25.png)
 
 Success! We have used the Currency Cloud API to make a currency 
 conversion using our detailed rates information, created a beneficiary
-to which the funds will be sent to, and finally, created a payment in 
+to whom the funds will be sent to, and finally, created a payment in 
 order to finalise the process. 
 
 Conclusion
