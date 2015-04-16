@@ -3,7 +3,7 @@ Introduction
 ============
 
 Currency Cloud Connect is designed for businesses that want to make
-frequent payments. By accessing our Payment Engine via our API, you can
+international payments. By accessing our Payment Engine via our API, you can
 automate your end-to-end payment processes and rapidly deliver
 tailor-made solutions for your customers.
 
