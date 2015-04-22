@@ -93,7 +93,7 @@ collection tab on the left, and click ‘Import collection’
 
 After that, select ‘Download from link’ and paste
 the following URL into the box:
-<https://github.com/CurrencyCloud/postman/blob/master/api_v2.json>.
+<https://raw.githubusercontent.com/CurrencyCloud/postman/master/api_v2.json>.
 
 ![](media/image9.png)
 
