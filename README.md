@@ -27,7 +27,7 @@ To download Postman, simply follow [this
 link](https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop?hl=en)
 and click on “Add to Chrome”.
 
-![](media/image1.png)
+[![](media/image1.png)](https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop?hl=en)
 
 To launch Postman, open your chrome apps by clicking on the button to
 the left of the browser.
@@ -93,7 +93,7 @@ collection tab on the left, and click ‘Import collection’
 
 After that, select ‘Download from link’ and paste
 the following URL into the box:
-<https://www.getpostman.com/collections/43e4377fd2e9d187dd0e>.
+<https://github.com/CurrencyCloud/postman/blob/master/api_v2.json>.
 
 ![](media/image9.png)
 
