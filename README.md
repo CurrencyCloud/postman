@@ -127,7 +127,7 @@ each call should return with.
 ---------------
 
 Before we can use the API properly, you need to authenticate yourself.
-The API will confirm that you are a valid user by matching you login ID
+The API will confirm that you are a valid user by matching your login ID
 and your API key to each other, and return with an authentication token
 if you are successfully authenticated. This token will be sent in the
 header of all subsequent calls to the API. This token will automatically
