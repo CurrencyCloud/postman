@@ -2,7 +2,7 @@
 Introduction
 ============
 
-Currency Cloud Connect is designed for businesses that want to make
+The Currencycloud API is designed for businesses that want to make
 international payments. By accessing our Payment Engine via our API, you can
 automate your end-to-end payment processes and rapidly deliver
 tailor-made solutions for your customers.
@@ -11,7 +11,7 @@ Our API is built by developers for developers, making it straightforward
 to integrate with our systems.
 
 In order to use the API demo, you must register for an API key at
-<https://connect.currencycloud.com/api-register>.
+<https://developer.currencycloud.com/api-register/>.
 
 Postman and setup
 =================
@@ -82,7 +82,7 @@ Collection
 
 Postman uses collections, which can be utilised to add groups of API
 calls in order to automate the process of using our system. We provide
-an official Postman collection for the Currency Cloud Demo API to help
+an official Postman collection for the Currencycloud Demo API to help
 get you testing as soon as possible.
 
 To set up Postman with our collection, make sure that you are on the
@@ -107,7 +107,7 @@ categories, ready for use.
 Using Postman
 =============
 
-Using Postman with the Currency Cloud API is the exact same as making
+Using Postman with the Currencycloud API is the exact same as making
 many manual HTTP requests, only easier. Lets go through some example API
 calls so that you can get a feel for how it works with Postman.
 
@@ -228,8 +228,8 @@ one below:
 
 The conversion has been placed, but the money has not gone anywhere yet.
 We must first create a beneficiary to which the funds shall be sent, and
-then create a payment, so that the funds can be received by currency
-cloud and then sent to the beneficiary. You may want to note down the id
+then create a payment, so that the funds can be received by Currencycloud
+and then sent to the beneficiary. You may want to note down the id
 value, as it will be used later during the payment call, either as a
 variable in Postman as demonstrated during the setup of the environment,
 or just copied into a text file for later use.
@@ -294,7 +294,7 @@ like the following:
 
 ![](media/image25.png)
 
-Success! We have used the Currency Cloud API to make a currency 
+Success! We have used the Currencycloud API to make a currency 
 conversion using our detailed rates information, created a beneficiary
 to whom the funds will be sent to, and finally, created a payment in 
 order to finalise the process. 
@@ -302,6 +302,6 @@ order to finalise the process.
 Conclusion
 ==========
 
-This is just a snippet of the full functionality of the Currency Cloud 
+This is just a snippet of the full functionality of the Currencycloud 
 API. Now that you know the basics, why not give us a call and see how 
 we can help integrate your business with our API.
