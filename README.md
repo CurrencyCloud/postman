@@ -64,7 +64,7 @@ You will need to input the following keys and inputs:
 
 |      Key      |               Value                    |
 | ------------- | -------------------------------------- |
-| url           | https://devapi.thecurrencycloud.com/v2 |
+| url           | https://devapi.currencycloud.com/v2    |
 | login\_id     | [Use your login ID here]               |
 | api\_key      | [Use your Unique API key here]         |
 | auth\_token   | [Keep this empty]                      |
