@@ -1,7 +1,7 @@
 {
 	"info": {
 		"name": "API v2 WIP",
-		"_postman_id": "d92d637f-bd3a-1b2b-f577-338db8fbb981",
+		"_postman_id": "d79773f3-195a-e3f9-ce77-104d08d20e63",
 		"description": "Postman pack for basic testing of API v2 ",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -1184,6 +1184,74 @@
 							]
 						},
 						"description": "**GERT /v2/conversions/:id/cancellation_quote** \n    Returns a json structure containing the details of the conversion cancellation rate.\n\n\n**Required Fields**\n\nid: conversion ID should be passed as a part of URL. It is needed to identify, which conversion we are going to cancel.\n\n**Optional Fields**\n\nNone\n\n\n**Response**\n\namount: profit or loss amount\n\ncurrency: ISO-4217 three letter profit or loss currency\n\nevent\\_date\\_time: Datetime of conversion cancellation event"
+					},
+					"response": []
+				},
+				{
+					"name": "Date Change Quote",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-AUTH-TOKEN",
+								"value": "{{auth_token}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "{{url}}/conversions/{{conversion_id}}/date_change_quote?new_settlement_date=2018-03-16",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"conversions",
+								"{{conversion_id}}",
+								"date_change_quote"
+							],
+							"query": [
+								{
+									"key": "new_settlement_date",
+									"value": "2018-03-16",
+									"equals": true
+								}
+							]
+						},
+						"description": "**GET /v2/conversions/:id/date_change_quote** \n    Returns a json structure containing the details of the conversion date change rate.\n\n**Required Fields**\n\nid: conversion ID should be passed as a part of URL. It is needed to identify for which conversion we are going to change settlement date.\n\nnew\\_settlement\\_date: New settlement date for the Conversion.\n\n**Optional Fields**\n\nNone\n\n**Response**\n\nconversion\\_id: ID of the Conversion\n\namount: Amount of Profit or Loss (positive or negative)\n\ncurrency: ISO-4217 three letter profit or loss currency\n\nnew\\_conversion\\_date: Datetime of new conversion date\n\nnew\\_settlement\\_date: Datetime of new settlement date\n\nold\\_conversion\\_date: Datetime of old conversion date\n\nold\\_settlement\\_date: Datetime of old settlement date\n\nevent\\_date\\_time: Datetime of conversion date change quote event"
+					},
+					"response": []
+				},
+				{
+					"name": "Date Change Execute",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-AUTH-TOKEN",
+								"value": "{{auth_token}}"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "new_settlement_date",
+									"value": "2018-03-14",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/conversions/{{conversion_id}}/date_change",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"conversions",
+								"{{conversion_id}}",
+								"date_change"
+							]
+						},
+						"description": "**POST /v2/conversions/:id/date_change** \n    Returns a json structure containing the details of the conversion date change rate.\n\n**Required Fields**\n\nid: conversion ID should be passed as a part of URL. It is needed to identify for which conversion we are going to change settlement date.\n\nnew\\_settlement\\_date: New settlement date for the Conversion.\n\n**Optional Fields**\n\nNone\n\n**Response**\n\nconversion\\_id: ID of the Conversion\n\namount: Amount of Profit or Loss (positive or negative)\n\ncurrency: ISO-4217 three letter profit or loss currency\n\nnew\\_conversion\\_date: Datetime of new conversion date\n\nnew\\_settlement\\_date: Datetime of new settlement date\n\nold\\_conversion\\_date: Datetime of old conversion date\n\nold\\_settlement\\_date: Datetime of old settlement date\n\nevent\\_date\\_time: Datetime of conversion date change quote event"
 					},
 					"response": []
 				},
