@@ -1340,6 +1340,101 @@
 						"description": "**GET /v2/conversions/profit_and_loss** \nReturn an array containing json structures of details of the conversion profit and losses matching the search criteria for the logged in user.\n\n**Required Fields**\n\nNone\n\n**Optional Fields**\n\naccount\\_id: ID of the Account that the Conversion belongs to\n\ncontact\\_id: ID of the Contact that did the cancellation\n\nconversion\\_id: ID of the cancelled conversion\n\nevent\\_type: Event type. Can be one from following list - self\\_service\\_cancellation, automated\\_date\\_change, back\\_office\\_cancellation\n\nevent\\_date\\_time\\_from: Allows you to return profit and losses will be done from on or after a defined date/time. ISO 8601 standard\n\nevent\\_date\\_time\\_to: Allows you to return profit and losses will be done from on or before a defined date/time. ISO 8601 standard\n\namount\\_from: Allows you to return profit and losses based on a minimum profit or loss amount\n\namount\\_to: Allows you to return profit and losses based on a maximum profit or loss amount\n\ncurrency: The currency being purchsed in a conversion.  ISO 4217 standard\n\nscope: Scope allows contacts to search all profit and losses at all account levels. Defaults to own. <br>\n        own: allows to search profit and losses on the main account <br>\n        clients: allows to search profit and losses of account sub accounts <br>\n        all: allows to search balances profit and losses account and sub-accounts\n\n\n**Response**\n\nconversion\\_profit\\_and\\_losses: An array of Conversion Profit and Losses entities.\n\n  account\\_id: account ID that the Conversion belongs to\n\n  contact\\_id: contact ID that the Conversion belongs to\n\n  conversion\\_id: ID of the conversions which was cancelled\n  \n  event\\_type: Type of cancellation\n\n  amount: profit or loss amount\n\n  currency: ISO-4217 three letter profit or loss currency\n\n  notes: notes that were provided as a reason of cancellation\n\n  event\\_date\\_time: Datetime of conversion cancellation event\n  \npagination:Pagination details relevant to the search query\n\n  total\\_entries:Total entries for this search query\n \n  total\\_pages:Total pages for this search query\n  \n  current\\_page:Current page of the search query\n  \n  per\\_page:Amount of search results to return per page\n  \n  previous\\_page:Previous page for this search query\n \n  next\\_page:Next page for this search query\n  \n  order\t:Order of the search returned for this search query\n  \n  order\\_asc\\_desc:Order of results returned e.g. 'asc' or 'desc'\n"
 					},
 					"response": []
+				},
+				{
+					"name": "Retrieve a Conversion Split Preview",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-AUTH-TOKEN",
+								"value": "{{auth_token}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "{{url}}/conversions/{{conversion_id}}/split_preview?amount=100",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"conversions",
+								"{{conversion_id}}",
+								"split_preview"
+							],
+							"query": [
+								{
+									"key": "amount",
+									"value": "100",
+									"equals": true
+								}
+							]
+						},
+						"description": "**GET /v2/conversions/{id}/split_preview  ** \n   Returns a json structure containing the conversion split preview.\n\n\n**Required Fields**\n\nid: ID of the conversion\n\namount: Sell amount to be split from original conversion\n\n**Response**\n\nparent_conversion: Parent conversion details\n  - id: Parent conversion ID\n  - short_reference: Parent conversion short reference\n  - sell_amount: Parent conversion client sell amount\n  - sell_currency: Parent conversion client sell currency code\n  - buy_amount: Parent conversion client buy amount\n  - buy_currency: Parent conversion client buy currency code\n  - settlement_date: Parent conversion settlement date\n  - conversion_date: Parent conversion delivery date\n  - status: Order status, mapped according to APIv2 rules  \n\nchild_conversion: Child conversion details\n  - id: null, since it is a preview call\n  - short_reference: Child conversion short reference\n  - sell_amount: Child conversion client sell amount\n  - sell_currency: Child conversion client sell currency code\n  - buy_amount: Child conversion client buy amount\n  - buy_currency: Child conversion client buy currency code\n  - settlement_date: Child conversion settlement date\n  - conversion_date: Child conversion delivery date\n  - status: Order status, mapped according to APIv2 rules"
+					},
+					"response": []
+				},
+				{
+					"name": "Split Conversion",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-AUTH-TOKEN",
+								"value": "{{auth_token}}"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "amount",
+									"value": "100",
+									"description": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/conversions/{{conversion_id}}/split",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"conversions",
+								"{{conversion_id}}",
+								"split"
+							]
+						},
+						"description": "**POST /v2/conversions/{id}/split  ** \n   Execute conversion split and returns a json structure containing split results.\n\n\n**Required Fields**\n\nid: ID of the conversion\n\namount: Sell amount to be split from original conversion\n\n**Response**\n\nparent_conversion: Parent conversion details\n  - id: Parent conversion ID\n  - short_reference: Parent conversion short reference\n  - sell_amount: Parent conversion client sell amount\n  - sell_currency: Parent conversion client sell currency code\n  - buy_amount: Parent conversion client buy amount\n  - buy_currency: Parent conversion client buy currency code\n  - settlement_date: Parent conversion settlement date\n  - conversion_date: Parent conversion delivery date\n  - status: Order status, mapped according to APIv2 rules  \n\nchild_conversion: Child conversion details\n  - id: Child conversion ID\n  - short_reference: Child conversion short reference\n  - sell_amount: Child conversion client sell amount\n  - sell_currency: Child conversion client sell currency code\n  - buy_amount: Child conversion client buy amount\n  - buy_currency: Child conversion client buy currency code\n  - settlement_date: Child conversion settlement date\n  - conversion_date: Child conversion delivery date\n  - status: Order status, mapped according to APIv2 rules"
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieve a Conversion Split History",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-AUTH-TOKEN",
+								"value": "{{auth_token}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "{{url}}/conversions/{{conversion_id}}/split_history",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"conversions",
+								"{{conversion_id}}",
+								"split_history"
+							]
+						},
+						"description": "**GET /v2/conversions/{id}/split_history  ** \n   Returns a json structure containing the conversion split history.\n\n\n**Required Fields**\n\nid: ID of the conversion\n\n**Response**\n\nparent_conversion: Parent conversion details\n  - id: Parent conversion ID\n  - short_reference: Parent conversion short reference\n  - sell_amount: Parent conversion client sell amount\n  - sell_currency: Parent conversion client sell currency code\n  - buy_amount: Parent conversion client buy amount\n  - buy_currency: Parent conversion client buy currency code\n  - settlement_date: Parent conversion settlement date\n  - conversion_date: Parent conversion delivery date\n  - status: Order status, mapped according to APIv2 rules \n  \norigin_conversion: Origin conversion details\n  - id: Origin conversion ID\n  - short_reference: Origin conversion short reference\n  - sell_amount: Origin conversion client sell amount\n  - sell_currency: Origin conversion client sell currency code\n  - buy_amount: Origin conversion client buy amount\n  - buy_currency: Origin conversion client buy currency code\n  - settlement_date: Origin conversion settlement date\n  - conversion_date: Origin conversion delivery date\n  - status: Order status, mapped according to APIv2 rules    \n  \nchild_conversions: Array of child conversions\n  - id: Child conversion ID\n  - short_reference: Child conversion short reference\n  - sell_amount: Child conversion client sell amount\n  - sell_currency: Child conversion client sell currency code\n  - buy_amount: Child conversion client buy amount\n  - buy_currency: Child conversion client buy currency code\n  - settlement_date: Child conversion settlement date\n  - conversion_date: Child conversion delivery date\n  - status: Order status, mapped according to APIv2 rules"
+					},
+					"response": []
 				}
 			]
 		},
