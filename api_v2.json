@@ -1,7 +1,7 @@
 {
 	"info": {
 		"name": "API v2 WIP",
-		"_postman_id": "d79773f3-195a-e3f9-ce77-104d08d20e63",
+		"_postman_id": "060b98d1-0317-b389-8289-1738d08bca4d",
 		"description": "Postman pack for basic testing of API v2 ",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -1197,7 +1197,10 @@
 								"value": "{{auth_token}}"
 							}
 						],
-						"body": {},
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
 						"url": {
 							"raw": "{{url}}/conversions/{{conversion_id}}/date_change_quote?new_settlement_date=2018-03-16",
 							"host": [
@@ -1351,7 +1354,10 @@
 								"value": "{{auth_token}}"
 							}
 						],
-						"body": {},
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
 						"url": {
 							"raw": "{{url}}/conversions/{{conversion_id}}/split_preview?amount=100",
 							"host": [
@@ -1390,7 +1396,6 @@
 								{
 									"key": "amount",
 									"value": "100",
-									"description": "",
 									"type": "text"
 								}
 							]
@@ -1420,7 +1425,10 @@
 								"value": "{{auth_token}}"
 							}
 						],
-						"body": {},
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
 						"url": {
 							"raw": "{{url}}/conversions/{{conversion_id}}/split_history",
 							"host": [
@@ -1946,6 +1954,85 @@
 							]
 						},
 						"description": "**GET /v2/reference/beneficiary\\_required\\_details** - Returns required beneficiary details and their basic validation formats\n\n**Optional Fields**\n\ncurrency - The 3 character ISO 4217 currency code of the beneficiary's bank account\n\nbank\\_account\\_country - A two-letter country code as defined in ISO 3166-1\n\nbeneficiary_country - The two letter contry code for the beneficiary\n\n**Response**\n\ndetails - An array of fields that are required\n\npayment\\_type - Payment type that is supported by current beneficiary. Can be priority or regular."
+					},
+					"response": []
+				},
+				{
+					"name": "Payment Dates",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-AUTH-TOKEN",
+								"value": "{{auth_token}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "{{url}}/reference/payment_dates?start_date=2018-02-11&currency=GBP",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"reference",
+								"payment_dates"
+							],
+							"query": [
+								{
+									"key": "start_date",
+									"value": "2018-02-11",
+									"equals": true
+								},
+								{
+									"key": "currency",
+									"value": "GBP",
+									"equals": true
+								}
+							]
+						},
+						"description": "**GET /v2/reference/payment_dates** - Returns invalid payment dates for the chosen currency. NOTE: the payment date is when the payment will be executed by Currencycloud.\n\n**Required Fields**\n\ncurrency: Currency in which the payment is being made, this must be 3 characters long. Currency codes are ISO 4217 standard.\n\n**Optional Fields**\n\nstart\\_date: Commences from provided date. ISO 8601 standard.\n\n**Response**\n\ninvalid\\_payment\\_dates: A list of dates and reasons why a payment can not occur.\n\nfirst\\_payment\\_date: The first delivery date that a payment can be executed on."
+					},
+					"response": []
+				},
+				{
+					"name": "Payer Required Details",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-AUTH-TOKEN",
+								"value": "{{auth_token}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "{{url}}/reference/payer_required_details?payer_country=GB&payer_entity_type=individual&payment_type=priority",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"reference",
+								"payer_required_details"
+							],
+							"query": [
+								{
+									"key": "payer_country",
+									"value": "GB",
+									"equals": true
+								},
+								{
+									"key": "payer_entity_type",
+									"value": "individual",
+									"equals": true
+								},
+								{
+									"key": "payment_type",
+									"value": "priority",
+									"equals": true
+								}
+							]
+						},
+						"description": "**GET /v2/reference/payer_required_details** - Returns required payer details and their basic validation formats.\n\n**Required Fields**\n\npayer\\_country: A two-letter country code as defined in ISO 3166-1.\n\n**Optional Fields**\n\npayer\\_entity\\_type: Payer Entity Type (could be company or individual).\n\npayment\\_type: Payment Type (could be priority or regular).\n\n**Response**\n\ndetails: An array of fields that are required.\n\n  payer\\_entity\\_type: Payer Entity Type (could be company or individual).\n  \n  payment\\_type: Payment Type (could be priority or regular).\n  \n  required\\_fields: List of required fields\n    \n    name: Name of the field that should be validate\n    \n    validation\\_rule: Validation rule for the field that should be validated"
 					},
 					"response": []
 				}
@@ -2663,6 +2750,124 @@
 						"description": "**GET /v2/customer_reporting/report_requests/find  ** \n   Return an array, which contains json structures of matched Report Requests.\n\n**Required Fields**\n\n\tNone\n\n**Optional Fields**\n\n\tshort\\_reference:Unique short reference of Report\n\t\n\tdescription:Description of Report\n\t\n\taccount\\_id:ID of the Account that the Report belongs to\n\t\n\tcontact\\_id:ID of the Contact that the Report belongs to\n\t\n\tcreated\\_at\\_from:Report creation date start\n\t\n\tcreated\\_at\\_to:Report creation date end\n\t\n\texpiration\\_date\\_from:Report expiration date from\n\t\n\texpiration\\_date\\_to:Report expiration date to\n\t\n\tstatus:Report status\n\t\n\treport\\_type:Report type\n\n**Response**\n\nconversion\\_profit\\_and\\_losses: An array of Report Request entities.\n\n\tid:Report unique ID\n\n\tshort\\_reference:Human readable unique ID\n\t\n\tdescription:Text that was provided as a reason of Report generation\n\t\n\tsearch\\_params:The list of options that were provided for filtering of entities that user searching for (payments, conversions, beneficiaries, transactions)\n\t\n\treport\\_type:Type of the Report (payment, conversion, beneficiary or transaction)\n\t\n\tstatus:Status of the Report (processing, completed or expired)\n\t\n\texpiration\\_date:Date when the Report expires\n\t\n\treport\\_url:URL that allows you to download generated report\n\t\n\taccount\\_id:ID of the Account that the Report belongs to\n\t\n\tcontact\\_id:ID of the Contact that the Report belongs to\n\t\n\tcreated\\_at:Datetime of when the Report was created\n\t\n\tupdated\\_at:Datetime of when the Report was last updated\n  \npagination:Pagination details relevant to the search query\n\n  total\\_entries:Total entries for this search query\n \n  total\\_pages:Total pages for this search query\n  \n  current\\_page:Current page of the search query\n  \n  per\\_page:Amount of search results to return per page\n  \n  previous\\_page:Previous page for this search query\n \n  next\\_page:Next page for this search query\n  \n  order\t:Order of the search returned for this search query\n  \n  order\\_asc\\_desc:Order of results returned e.g. 'asc' or 'desc'\n"
 					},
 					"response": []
+				}
+			]
+		},
+		{
+			"name": "IBAN's",
+			"description": "**/v2/ibans/**\nInternational Bank Account Number API. It provides ability to retrieve IBANS that belongs to you or your sub-accounts.",
+			"item": [
+				{
+					"name": "Retrieve an IBAN",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-AUTH-TOKEN",
+								"value": "{{auth_token}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "{{url}}/ibans?currency=USD",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"ibans"
+							],
+							"query": [
+								{
+									"key": "currency",
+									"value": "USD",
+									"equals": true
+								}
+							]
+						},
+						"description": "**GET /v2/ibans** - Returns a JSON structure containing the details of the IBAN assigned to the logged in account.\n\n**Optional Fields**\n\ncurrency: Currency in which the balance is held, this must be 3 characters long. Currency codes are ISO 4217 standard.\n\n**Response**\n\nibans: An array of IBAN objects;\n\n  uuid: IBAN unique identifier.\n  \n  iban\\_code: Code of the IBAN.\n  \n  account\\_id: ID of the account that IBAN belongs to.\n  \n  currency: Currency in which the balance is held, this must be 3 characters long. Currency codes are ISO 4217 standard.\n  \n  account\\_holder\\_name: Account holder name.\n  \n  bank\\_institution\\_name: Bank name.\n  \n  bank\\_institution\\_address: Bank address.\n  \n  bank\\_institution\\_country: Bank country.\n  \n  bic\\_swift: Bank identification code.\n  \n  created\\_at: Date and Time of creation.\n  \n  updated\\_at: Date and Time of last update.\n\npagination: Pagination details relevant to the search query\n\n  total\\_entries:Total entries for this search query\n \n  total\\_pages:Total pages for this search query\n  \n  current\\_page:Current page of the search query\n  \n  per\\_page:Amount of search results to return per page\n  \n  previous\\_page:Previous page for this search query\n \n  next\\_page:Next page for this search query\n  \n  order\t:Order of the search returned for this search query\n  \n  order\\_asc\\_desc:Order of results returned e.g. 'asc' or 'desc'"
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieve IBAN of Sub-Account(s)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-AUTH-TOKEN",
+								"value": "{{auth_token}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "{{url}}/ibans/subaccounts/{{sub_account_uuid}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"ibans",
+								"subaccounts",
+								"{{sub_account_uuid}}"
+							]
+						},
+						"description": "**GET /v2/ibans/subaccounts/{id}** - Returns a JSON structure containing the details of the IBAN assigned to a specific sub-account linked to a house account.\n\n**Required Fields**\n\nid: Sub-Account UUID.\n\n**Response**\n\nibans: An array of IBAN objects;\n\n  uuid: IBAN unique identifier.\n  \n  iban\\_code: Code of the IBAN.\n  \n  account\\_id: ID of the account that IBAN belongs to.\n  \n  currency: Currency in which the balance is held, this must be 3 characters long. Currency codes are ISO 4217 standard.\n  \n  account\\_holder\\_name: Account holder name.\n  \n  bank\\_institution\\_name: Bank name.\n  \n  bank\\_institution\\_address: Bank address.\n  \n  bank\\_institution\\_country: Bank country.\n  \n  bic\\_swift: Bank identification code.\n  \n  created\\_at: Date and Time of creation.\n  \n  updated\\_at: Date and Time of last update.\n\npagination: Pagination details relevant to the search query\n\n  total\\_entries:Total entries for this search query\n \n  total\\_pages:Total pages for this search query\n  \n  current\\_page:Current page of the search query\n  \n  per\\_page:Amount of search results to return per page\n  \n  previous\\_page:Previous page for this search query\n \n  next\\_page:Next page for this search query\n  \n  order\t:Order of the search returned for this search query\n  \n  order\\_asc\\_desc:Order of results returned e.g. 'asc' or 'desc'"
+					},
+					"response": []
+				},
+				{
+					"name": "Find IBANs of Sub-Account(s)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-AUTH-TOKEN",
+								"value": "{{auth_token}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "{{url}}/ibans/subaccounts/find?currency=USD",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"ibans",
+								"subaccounts",
+								"find"
+							],
+							"query": [
+								{
+									"key": "currency",
+									"value": "USD",
+									"equals": true
+								}
+							]
+						},
+						"description": "**GET /v2/ibans/subaccounts/find** - Returns an array containing JSON structures of the IBANs of the sub-accounts linked to the logged in user.\n\n**Optional Fields**\n\ncurrency: Currency in which the balance is held, this must be 3 characters long. Currency codes are ISO 4217 standard.\n\n**Response**\n\nibans: An array of IBAN objects;\n\n  uuid: IBAN unique identifier.\n  \n  iban\\_code: Code of the IBAN.\n  \n  account\\_id: ID of the account that IBAN belongs to.\n  \n  currency: Currency in which the balance is held, this must be 3 characters long. Currency codes are ISO 4217 standard.\n  \n  account\\_holder\\_name: Account holder name.\n  \n  bank\\_institution\\_name: Bank name.\n  \n  bank\\_institution\\_address: Bank address.\n  \n  bank\\_institution\\_country: Bank country.\n  \n  bic\\_swift: Bank identification code.\n  \n  created\\_at: Date and Time of creation.\n  \n  updated\\_at: Date and Time of last update.\n\npagination: Pagination details relevant to the search query\n\n  total\\_entries:Total entries for this search query\n \n  total\\_pages:Total pages for this search query\n  \n  current\\_page:Current page of the search query\n  \n  per\\_page:Amount of search results to return per page\n  \n  previous\\_page:Previous page for this search query\n \n  next\\_page:Next page for this search query\n  \n  order\t:Order of the search returned for this search query\n  \n  order\\_asc\\_desc:Order of results returned e.g. 'asc' or 'desc'"
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "458b1788-8246-44a5-bf5a-57887c5d1389",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "38a30a52-2345-424a-b0ba-0d385a4c6ac4",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
 				}
 			]
 		}
