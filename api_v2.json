@@ -2416,7 +2416,7 @@
 		},
 		{
 			"name": "Customer Reporting",
-			"description": "**/v2/customer_reporting/**\nReporting functionality that allows to generate Payment and Conversion Reports according to provided search options.\nIn addition, it allows to retriewe previously generated reports by ID or by specified search options",
+			"description": "**/v2/customer_reporting/**\nReporting functionality that allows to generate Payment and Conversion Reports according to provided search options.\nIn addition, it allows to retrieve previously generated reports by ID or by specified search options",
 			"item": [
 				{
 					"name": "Create Conversions Report",
@@ -2605,7 +2605,7 @@
 					"response": []
 				},
 				{
-					"name": "Retrive a Report",
+					"name": "Retrieve a Report",
 					"request": {
 						"method": "GET",
 						"header": [
