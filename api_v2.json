@@ -1,7 +1,7 @@
 {
 	"info": {
 		"name": "API v2 WIP",
-		"_postman_id": "060b98d1-0317-b389-8289-1738d08bca4d",
+		"_postman_id": "78f9769e-52ac-599a-e865-237e9d4329b3",
 		"description": "Postman pack for basic testing of API v2 ",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -2868,6 +2868,87 @@
 							""
 						]
 					}
+				}
+			]
+		},
+		{
+			"name": "VAN's",
+			"description": "",
+			"item": [
+				{
+					"name": "Retrieve a VAN",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-AUTH-TOKEN",
+								"value": "{{auth_token}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "{{url}}/virtual_accounts",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"virtual_accounts"
+							]
+						},
+						"description": "**GET /v2/virtual_accounts** - Returns a JSON structure containing the details of the VAN assigned to the logged in account.\n\n**Response**\n\nvirtual_accounts: An array of VAN objects;\n\n  uuid: VAN unique identifier.\n  \n  routing\\_code: Virtual account number.\n  \n  account\\_id: ID of the account that VAN belongs to.\n  \n  account\\_holder\\_name: Name of the account.\n  \n  bank\\_institution\\_name: Bank name.\n  \n  bank\\_institution\\_address: Bank address.\n  \n  bank\\_institution\\_country: Bank country.\n  \n  bic\\_swift: Bank identification code.\n  \n  created\\_at: Date and Time of creation.\n  \n  updated\\_at: Date and Time of last update.\n\npagination: Pagination details relevant to the search query\n\n  total\\_entries:Total entries for this search query\n \n  total\\_pages:Total pages for this search query\n  \n  current\\_page:Current page of the search query\n  \n  per\\_page:Amount of search results to return per page\n  \n  previous\\_page:Previous page for this search query\n \n  next\\_page:Next page for this search query\n  \n  order\t:Order of the search returned for this search query\n  \n  order\\_asc\\_desc:Order of results returned e.g. 'asc' or 'desc'"
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieve VAN of Sub-Account(s)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-AUTH-TOKEN",
+								"value": "{{auth_token}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "{{url}}/virtual_accounts/subaccounts/{{sub_account_uuid}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"virtual_accounts",
+								"subaccounts",
+								"{{sub_account_uuid}}"
+							]
+						},
+						"description": "**GET /v2/virtual_accounts/subaccounts/{id}** - Returns a JSON structure containing the details of the VAN assigned to a specific sub-account linked to a house account.\n\n**Required Fields**\n\nid: Sub-Account UUID.\n\n**Response**\n\nvirtual_accounts: An array of VAN objects;\n\n  uuid: VAN unique identifier.\n  \n  routing\\_code: Virtual account number.\n  \n  account\\_id: ID of the account that VAN belongs to.\n  \n  account\\_holder\\_name: Name of the account.\n  \n  bank\\_institution\\_name: Bank name.\n  \n  bank\\_institution\\_address: Bank address.\n  \n  bank\\_institution\\_country: Bank country.\n  \n  bic\\_swift: Bank identification code.\n  \n  created\\_at: Date and Time of creation.\n  \n  updated\\_at: Date and Time of last update.\n\npagination: Pagination details relevant to the search query\n\n  total\\_entries:Total entries for this search query\n \n  total\\_pages:Total pages for this search query\n  \n  current\\_page:Current page of the search query\n  \n  per\\_page:Amount of search results to return per page\n  \n  previous\\_page:Previous page for this search query\n \n  next\\_page:Next page for this search query\n  \n  order\t:Order of the search returned for this search query\n  \n  order\\_asc\\_desc:Order of results returned e.g. 'asc' or 'desc'"
+					},
+					"response": []
+				},
+				{
+					"name": "Find VAN of Sub-Account(s)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-AUTH-TOKEN",
+								"value": "{{auth_token}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "{{url}}/virtual_accounts/subaccounts",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"virtual_accounts",
+								"subaccounts"
+							]
+						},
+						"description": "**GET /v2/virtual_accounts/subaccounts** - Returns an array containing JSON structures of the VANs of the sub-accounts linked to the logged in user.\n\n**Response**\n\nvirtual_accounts: An array of VAN objects;\n\n  uuid: VAN unique identifier.\n  \n  routing\\_code: Virtual account number.\n  \n  account\\_id: ID of the account that VAN belongs to.\n  \n  account\\_holder\\_name: Name of the account.\n  \n  bank\\_institution\\_name: Bank name.\n  \n  bank\\_institution\\_address: Bank address.\n  \n  bank\\_institution\\_country: Bank country.\n  \n  bic\\_swift: Bank identification code.\n  \n  created\\_at: Date and Time of creation.\n  \n  updated\\_at: Date and Time of last update.\n\npagination: Pagination details relevant to the search query\n\n  total\\_entries:Total entries for this search query\n \n  total\\_pages:Total pages for this search query\n  \n  current\\_page:Current page of the search query\n  \n  per\\_page:Amount of search results to return per page\n  \n  previous\\_page:Previous page for this search query\n \n  next\\_page:Next page for this search query\n  \n  order\t:Order of the search returned for this search query\n  \n  order\\_asc\\_desc:Order of results returned e.g. 'asc' or 'desc'"
+					},
+					"response": []
 				}
 			]
 		}
