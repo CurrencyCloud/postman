@@ -1,13 +1,14 @@
 {
 	"info": {
+		"_postman_id": "27b9bf8e-b1ca-4d02-9a80-8d8a34a50bac",
 		"name": "API v2 WIP",
-		"_postman_id": "060b98d1-0317-b389-8289-1738d08bca4d",
 		"description": "Postman pack for basic testing of API v2 ",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
 			"name": "Accounts",
+			"description": null,
 			"item": [
 				{
 					"name": "Retrieve an Account",
@@ -163,6 +164,7 @@
 		},
 		{
 			"name": "Authentication",
+			"description": null,
 			"item": [
 				{
 					"name": "API User Login",
@@ -325,6 +327,7 @@
 		},
 		{
 			"name": "Balances",
+			"description": null,
 			"item": [
 				{
 					"name": "Retrieve A Balance",
@@ -418,6 +421,7 @@
 		},
 		{
 			"name": "Beneficiaries",
+			"description": null,
 			"item": [
 				{
 					"name": "Retrieve a Beneficiary",
@@ -702,6 +706,7 @@
 		},
 		{
 			"name": "Contacts",
+			"description": null,
 			"item": [
 				{
 					"name": "Retrieve a Contact",
@@ -959,6 +964,7 @@
 		},
 		{
 			"name": "Conversions",
+			"description": null,
 			"item": [
 				{
 					"name": "Retrieve a Conversion",
@@ -1214,8 +1220,7 @@
 							"query": [
 								{
 									"key": "new_settlement_date",
-									"value": "2018-03-16",
-									"equals": true
+									"value": "2018-03-16"
 								}
 							]
 						},
@@ -1315,28 +1320,23 @@
 							"query": [
 								{
 									"key": "event_date_time_from",
-									"value": "2017-11-20",
-									"equals": true
+									"value": "2017-11-20"
 								},
 								{
 									"key": "event_date_time_to",
-									"value": "2017-11-22",
-									"equals": true
+									"value": "2017-11-22"
 								},
 								{
 									"key": "amount_from",
-									"value": "-12",
-									"equals": true
+									"value": "-12"
 								},
 								{
 									"key": "amount_to",
-									"value": "-7",
-									"equals": true
+									"value": "-7"
 								},
 								{
 									"key": "conversion_id",
-									"value": "d5a6d00c-2c10-4844-bd45-406a5dee3ac0",
-									"equals": true
+									"value": "d5a6d00c-2c10-4844-bd45-406a5dee3ac0"
 								}
 							]
 						},
@@ -1371,8 +1371,7 @@
 							"query": [
 								{
 									"key": "amount",
-									"value": "100",
-									"equals": true
+									"value": "100"
 								}
 							]
 						},
@@ -1448,6 +1447,7 @@
 		},
 		{
 			"name": "Payers",
+			"description": null,
 			"item": [
 				{
 					"name": "Retrieve a Payer",
@@ -1481,6 +1481,7 @@
 		},
 		{
 			"name": "Payments",
+			"description": null,
 			"item": [
 				{
 					"name": "Retrieve a Payment",
@@ -1732,11 +1733,31 @@
 						"description": "**POST /v2/payments/{id}/delete ** \n   Delete a prevoiusly created payment and returns a hash containing the details of the deleted payment.\n\n\n**Required Fields**\n\nid:Unique ID of payment\n\n**Optional Fields**\n\non\\_behalf\\_of: contact ID\n\n**Response**\n\nId:Payment unique ID\n\nPayer\\_id:Unique payer ID\n\nAmount:Amount of Payment to 2dp\n\nBeneficiary\\_id:ID of the beneficiary\n\nCurrency:3 character ISO 4217 currency code\n\nConversion\\_id:Conversion unique ID\n\nReference:Reference\n\nPayment\\_type:Can be standard or local\n\nPayment\\_date:ISO 8601 Date when the payment should be paid\n\nreason\t:Reason for payment\n\nstatus:Status of the payment\n\ntransferred\\_at:ISO 8601 Date when the Payment was sent\n\nauthorisation\\_steps\\_required:Number of authorisation steps required\n\ncreator\\_contact\\_id:ID of the contact\n\nlast\\_updater\\_contact\\_id:ID of the contact\n\nshort\\_reference:transfer ID of the payment\n\nfailure\\_reason:Reason for the failure\n\ncreated\\_at:Datetime of when the Payment was created\n\nupdated\\_at:Datetime of when the Payment was last updated\n\n\n"
 					},
 					"response": []
+				},
+				{
+					"name": "Payment Confirmation",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "{{url}}payment/{{id}}/confirmation",
+							"host": "{{url}}",
+							"path": [
+								"payment",
+								"{{id}}",
+								"confirmation"
+							]
+						},
+						"description": "**GET /v2/payments/{payment_id}/confirmation**\nPayment Confirmation API. It provides ability to get information about specific payment confirmation entity, based on payment id.\n\n**Required Fields**\n\nid:Payment unique ID\n\n**Response**\n\n  Id:Payment confirmation unique ID\n  \n  Payment_id:Payment unique ID\n  \n  Short reference:the Payment confirmation short reference\n  \n  Status:Payment confirmation status\n  \n  Expires_at:Payment confirmation expiration date and time\n  \n  Confirmation_url: The url to the payment confirmation file - this should be available only when the status is 'completed'\n  \n  Account_id:The account id where the payment confirmation and the payment belong to\n  \n  Created_at:The date time when the confirmation was created\n  \n  Updated_at:The date time of the latest status update of the confirmation)"
+					},
+					"response": []
 				}
 			]
 		},
 		{
 			"name": "Rates",
+			"description": null,
 			"item": [
 				{
 					"name": "Retrieve Multiple Rates",
@@ -1822,6 +1843,7 @@
 		},
 		{
 			"name": "Reference",
+			"description": null,
 			"item": [
 				{
 					"name": "Conversion Dates",
@@ -1967,7 +1989,10 @@
 								"value": "{{auth_token}}"
 							}
 						],
-						"body": {},
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
 						"url": {
 							"raw": "{{url}}/reference/payment_dates?start_date=2018-02-11&currency=GBP",
 							"host": [
@@ -1980,13 +2005,11 @@
 							"query": [
 								{
 									"key": "start_date",
-									"value": "2018-02-11",
-									"equals": true
+									"value": "2018-02-11"
 								},
 								{
 									"key": "currency",
-									"value": "GBP",
-									"equals": true
+									"value": "GBP"
 								}
 							]
 						},
@@ -2004,7 +2027,10 @@
 								"value": "{{auth_token}}"
 							}
 						],
-						"body": {},
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
 						"url": {
 							"raw": "{{url}}/reference/payer_required_details?payer_country=GB&payer_entity_type=individual&payment_type=priority",
 							"host": [
@@ -2017,18 +2043,15 @@
 							"query": [
 								{
 									"key": "payer_country",
-									"value": "GB",
-									"equals": true
+									"value": "GB"
 								},
 								{
 									"key": "payer_entity_type",
-									"value": "individual",
-									"equals": true
+									"value": "individual"
 								},
 								{
 									"key": "payment_type",
-									"value": "priority",
-									"equals": true
+									"value": "priority"
 								}
 							]
 						},
@@ -2040,6 +2063,7 @@
 		},
 		{
 			"name": "Settlements",
+			"description": null,
 			"item": [
 				{
 					"name": "Create a Settlement",
@@ -2274,6 +2298,7 @@
 		},
 		{
 			"name": "Signups",
+			"description": null,
 			"item": [
 				{
 					"name": "Create Signup",
@@ -2333,6 +2358,7 @@
 		},
 		{
 			"name": "Transactions",
+			"description": null,
 			"item": [
 				{
 					"name": "Retrieve a Transaction",
@@ -2732,18 +2758,15 @@
 							"query": [
 								{
 									"key": "status",
-									"value": "completed",
-									"equals": true
+									"value": "completed"
 								},
 								{
 									"key": "created_at_from",
-									"value": "2017-11-24",
-									"equals": true
+									"value": "2017-11-24"
 								},
 								{
 									"key": "order_asc_desc",
-									"value": "asc",
-									"equals": true
+									"value": "asc"
 								}
 							]
 						},
@@ -2767,7 +2790,10 @@
 								"value": "{{auth_token}}"
 							}
 						],
-						"body": {},
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
 						"url": {
 							"raw": "{{url}}/ibans?currency=USD",
 							"host": [
@@ -2779,8 +2805,7 @@
 							"query": [
 								{
 									"key": "currency",
-									"value": "USD",
-									"equals": true
+									"value": "USD"
 								}
 							]
 						},
@@ -2798,7 +2823,10 @@
 								"value": "{{auth_token}}"
 							}
 						],
-						"body": {},
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
 						"url": {
 							"raw": "{{url}}/ibans/subaccounts/{{sub_account_uuid}}",
 							"host": [
@@ -2824,7 +2852,10 @@
 								"value": "{{auth_token}}"
 							}
 						],
-						"body": {},
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
 						"url": {
 							"raw": "{{url}}/ibans/subaccounts/find?currency=USD",
 							"host": [
@@ -2838,8 +2869,7 @@
 							"query": [
 								{
 									"key": "currency",
-									"value": "USD",
-									"equals": true
+									"value": "USD"
 								}
 							]
 						},
